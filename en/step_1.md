@@ -1,25 +1,26 @@
-## Introduction
+A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
 
-Add project description here. What will learners be making?
+### Send a broadcast
+You can send a broadcast by creating a broadcast block and giving it a name:
 
-### What you will make
++ Find the **broadcast** block under **Events**
 
-Add something here to showcase here, for example:
++ Select **New Message** in the drop-down menu.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+![broadcast block dropdown](images/broadcast-block.png)
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
++ Then type your message
 
-### What you will learn
+![Create a broadcast](images/new-broadcast.png)
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level){:target="_blank"}
+### Receive a broadcast
 
-### Additional information for educators
+A sprite can react to a broadcast by using this block:
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+![Receive a broadcast](images/receive-a-broadcast.png)
 
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+
+![Receive example](images/receive-example.png)

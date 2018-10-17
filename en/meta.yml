@@ -1,11 +1,8 @@
-title: generic-scratch3-broadcast-message
+title: Broadcast a message in Scratch
 hero_image: images/banner.png
-description: generic-scratch3-broadcast-message description
-version: 4
+description: Learn how to broadcast a message which can be acted upon by different sprites
 listed: false
-copyedit: false
-last_tested: "2018-10-17"
+ingredient: true
+copyedit: true
 steps:
   - title: Introduction
-  - title: What you will need
-  - title: Step title
