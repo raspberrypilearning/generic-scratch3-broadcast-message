@@ -1,8 +1,8 @@
 A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
 
-### Send a broadcast
+### Kirim siaran
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+Kamu dapat mengirim siaran dengan membuat blok siaran dan memberinya sebuah nama:
 
 + Find the **broadcast** block under **Events**
 
@@ -12,16 +12,16 @@ You can send a broadcast by creating a broadcast block and giving it a name:
 
 + Then type your message
 
-![Create a broadcast](images/new-broadcast.png)
+![Buat siaran](images/new-broadcast.png)
 
 The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
 
-### Receive a broadcast
+### Terima siaran
 
-A sprite can react to a broadcast by using this block:
+Sprite dapat bereaksi terhadap siaran dengan menggunakan blok ini:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![Terima siaran](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+Kamu bisa menambahkan beberapa blok di bawah blok ini untuk memberi tahu sprite, apa yang harus dilakukan saat menerima sinyal siaran.
 
-![Receive example](images/receive-example.png)
+![Contoh penerimaan](images/receive-example.png)
