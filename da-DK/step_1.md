@@ -1,8 +1,8 @@
 A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
 
-### Send a broadcast
+### Send en meddelelse
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+Du kan sende en meddelelse ved at oprette en send-blok og give den et navn:
 
 + Find the **broadcast** block under **Events**
 
@@ -12,16 +12,16 @@ You can send a broadcast by creating a broadcast block and giving it a name:
 
 + Then type your message
 
-![Create a broadcast](images/new-broadcast.png)
+![Opret en meddelelse](images/new-broadcast.png)
 
 The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
 
-### Receive a broadcast
+### Modtag en meddelelse
 
-A sprite can react to a broadcast by using this block:
+En sprite kan reagere på en meddelelse ved at bruge denne blok:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![Modtag en meddelelse](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+Du kan tilføje blokke under denne blok for at fortælle spriten, hvad den skal gøre, når den modtager meddelelsen.
 
-![Receive example](images/receive-example.png)
+![Modtag eksempel](images/receive-example.png)
