@@ -1,6 +1,6 @@
 A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
 
-### Send a broadcast
+### 发送广播
 
 You can send a broadcast by creating a broadcast block and giving it a name:
 
@@ -12,16 +12,16 @@ You can send a broadcast by creating a broadcast block and giving it a name:
 
 + Then type your message
 
-![Create a broadcast](images/new-broadcast.png)
+![创建广播](images/new-broadcast.png)
 
 The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
 
-### Receive a broadcast
+### 接收广播
 
-A sprite can react to a broadcast by using this block:
+角色可以使用这个块对广播做出反应:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![接收广播](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+可以在这个块下面加入块，告诉角色当它收到广播信号时要做些什么。
 
-![Receive example](images/receive-example.png)
+![接收样例](images/receive-example.png)
