@@ -1,8 +1,8 @@
 A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
 
-### Send a broadcast
+### Eine Nachricht an alle senden
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+Du kannst eine Nachricht senden, indem du einen 'Sende Nachricht an alle'-Block erstellst und ihm einen Namen gibst:
 
 + Find the **broadcast** block under **Events**
 
@@ -16,12 +16,12 @@ You can send a broadcast by creating a broadcast block and giving it a name:
 
 The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
 
-### Receive a broadcast
+### Empfangen einer Sendung
 
-A sprite can react to a broadcast by using this block:
+Eine Figur kann mit diesem Block auf eine Sendung reagieren:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![Empfangen einer Sendung](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+Du kannst Blöcke unterhalb dieses Blocks hinzufügen, um der Figur mitzuteilen, was zu tun ist, wenn sie die Sendung empfängt.
 
 ![Receive example](images/receive-example.png)
