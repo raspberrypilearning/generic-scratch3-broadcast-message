@@ -1,8 +1,8 @@
 A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
 
-### Send a broadcast
+### Pošalji poruku
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+Možeš poslati poruku tako da izradiš blok za emitiranje i daš mu ime:
 
 + Find the **broadcast** block under **Events**
 
@@ -12,16 +12,16 @@ You can send a broadcast by creating a broadcast block and giving it a name:
 
 + Then type your message
 
-![Create a broadcast](images/new-broadcast.png)
+![Pošalji poruku](images/new-broadcast.png)
 
 The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
 
-### Receive a broadcast
+### Primi poruku
 
-A sprite can react to a broadcast by using this block:
+Lik može reagirati na slanje poruke pomoću ovog bloka:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![Primi poruku](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+Možeš dodati blokove ispod ovog bloka kako bi odredio što lik treba učiniti kada primi poruku.
 
-![Receive example](images/receive-example.png)
+![Primjer primanja poruke](images/receive-example.png)
