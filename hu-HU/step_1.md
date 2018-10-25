@@ -1,8 +1,8 @@
 A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
 
-### Send a broadcast
+### Küldj egy üzenetet
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+Üzenet küldéséhez hozz létre egy üzenetküldő blokkot, és adj neki egy nevet:
 
 + Find the **broadcast** block under **Events**
 
@@ -12,16 +12,16 @@ You can send a broadcast by creating a broadcast block and giving it a name:
 
 + Then type your message
 
-![Create a broadcast](images/new-broadcast.png)
+![Hozz létre egy üzenetet](images/new-broadcast.png)
 
 The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
 
-### Receive a broadcast
+### Üzenet fogadása
 
-A sprite can react to a broadcast by using this block:
+Egy szereplő az alábbi blokkal reagálhat az üzenetre:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![Üzenet fogadása](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+A blokk alá hozzáadhatsz blokkokat, hogy megmond a szereplőnek, mit kell tennie az üzenet fogadásakor.
 
-![Receive example](images/receive-example.png)
+![Példa üzenet fogadására](images/receive-example.png)
