@@ -1,10 +1,10 @@
 ---
-title: Broadcast a message in Scratch
+title: スクラッチでメッセージを発信する
 hero_image: images/banner.png
-description: Learn how to broadcast a message which can be acted upon by different sprites
+description: さまざまなスプライトが処理できるメッセージを発信する方法を学ぶ
 listed: false
 ingredient: true
 copyedit: true
 steps:
   - 
-    title: Introduction
+    title: はじめに
