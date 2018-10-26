@@ -1,6 +1,6 @@
 A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
 
-### Send a broadcast
+### ブロードキャストを送る
 
 You can send a broadcast by creating a broadcast block and giving it a name:
 
@@ -12,16 +12,16 @@ You can send a broadcast by creating a broadcast block and giving it a name:
 
 + Then type your message
 
-![Create a broadcast](images/new-broadcast.png)
+![ブロードキャストを作成する](images/new-broadcast.png)
 
 The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
 
-### Receive a broadcast
+### ブロードキャストを受け取る
 
-A sprite can react to a broadcast by using this block:
+スプライトはこのブロックを使用してブロードキャストに反応することができます：
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![ブロードキャストを受け取る](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+このブロックの下にブロックを追加して、スプライトがブロードキャスト信号を受け取ったときに何をすべきかを指示できます。
 
-![Receive example](images/receive-example.png)
+![受け取りの例](images/receive-example.png)
