@@ -1,10 +1,10 @@
 ---
-title: Broadcast a message in Scratch
+title: 스크래치에서 메시지 방송하기
 hero_image: images/banner.png
-description: Learn how to broadcast a message which can be acted upon by different sprites
+description: 다른 스프라이트가 반응하도록 메시지를 "방송"해보아요.
 listed: false
 ingredient: true
 copyedit: true
 steps:
   - 
-    title: Introduction
+    title: 소개
