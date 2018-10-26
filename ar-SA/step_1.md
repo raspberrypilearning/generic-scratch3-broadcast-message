@@ -1,8 +1,8 @@
 A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
 
-### Send a broadcast
+### إرسال البث
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+يمكنك إرسال البث عن طريق إنشاء قالب بث وتحديد اسم لها:
 
 + Find the **broadcast** block under **Events**
 
@@ -12,16 +12,16 @@ You can send a broadcast by creating a broadcast block and giving it a name:
 
 + Then type your message
 
-![Create a broadcast](images/new-broadcast.png)
+![اصنع بث](images/new-broadcast.png)
 
 The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
 
-### Receive a broadcast
+### تلقى البث
 
-A sprite can react to a broadcast by using this block:
+الكائن يمكن أن يستجاب لبث بإستخدام هذا القالب البرامجي:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![تلقى البث](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+يمكنك إضافة قوالب برمجية أخرى أسفل هذا القالب البرمجي لتحدد للكائن ما يفعله عندما يتلقى إشارة البث.
 
-![Receive example](images/receive-example.png)
+![تلقى مثال](images/receive-example.png)
