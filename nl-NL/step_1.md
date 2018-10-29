@@ -1,4 +1,4 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Zie het als een aankondiging via een luidspreker.
+Een signaal is een manier om een ​​boodschap te verzenden vanuit een sprite die door alle sprites kan worden gehoord. Zie het als een aankondiging via een luidspreker.
 
 ### Verzend een signaal
 
@@ -8,13 +8,13 @@ Je kunt een signaal verzenden door een zend signaal blok te maken en het een naa
 
 + Selecteer **Nieuw bericht** in het vervolgkeuzemenu.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![signaalblok dropdown](images/broadcast-block.png)
 
 + Typ vervolgens je bericht
 
 ![Maak een bericht](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. Wat er gebeurt als het bericht wordt ontvangen, is afhankelijk van de code die jij schrijft.
+De bericht tekst kan alles zijn wat je leuk vindt, maar het is nuttig dat het bericht een zinvolle beschrijving krijgt. Wat er gebeurt als het bericht wordt ontvangen, is afhankelijk van de code die jij schrijft.
 
 ### Ontvang een signaal
 
