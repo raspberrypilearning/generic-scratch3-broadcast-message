@@ -1,20 +1,20 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Η εκπομπή είναι ένας τρόπος να στείλεις ένα μήνυμα από ένα αντικείμενο (sprite) που μπορεί να ακουστεί από όλα τα άλλα αντικείμενα (sprites). Σκέψου το σαν μια ανακοίνωση από ένα μεγάφωνο.
 
 ### Εξέπεμψε ένα σήμα
 
 Μπορείς να εκπέμψεις ένα σήμα δημιουργώντας ένα μπλοκ εκπομπής και δίνοντάς του ένα όνομα:
 
-+ Find the **broadcast** block under **Events**
++ Βρες το μπλοκ **μετάδωσε** στα **Συμβάντα**
 
-+ Select **New Message** in the drop-down menu.
++ Επέλεξε **Νέο μήνυμα** στο αναπτυσσόμενο μενού.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![αναπτυσσόμενο μενού του μπλοκ "μετάδωσε"](images/broadcast-block.png)
 
-+ Then type your message
++ Στη συνέχεια πληκτρολόγησε το μήνυμά σου
 
 ![Δημιούργησε μία εκπομπή](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Το κείμενο του μηνύματος μπορεί να είναι οτιδήποτε, αλλά είναι χρήσιμο να δώσεις στην εκπομπή μια λογική περιγραφή. Αυτό που συμβαίνει όταν λαμβάνεται το μήνυμα εξαρτάται από τον κώδικα που γράφεις.
 
 ### Λήψη εκπεμπόμενου μηνύματος
 
