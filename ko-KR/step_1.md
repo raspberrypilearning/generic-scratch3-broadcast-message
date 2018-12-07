@@ -1,8 +1,8 @@
 A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
 
-### 메시지 방송하기
+### 브로드캐스트 전송
 
-방송 블록을 만들고 메시지 이름을 지정하면 메시지를 방송할 수 있습니다:
+You can send a broadcast by creating a broadcast block and giving it a name:
 
 + Find the **broadcast** block under **Events**
 
