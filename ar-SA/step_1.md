@@ -1,24 +1,24 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+البث هو طريقة لإرسال رسالة من أحد الكائنات وبالتالي تتمكن الكائنات الأخرى من سماعه. فكر فيه كإعلان يتم عبر مكبر صوت.
 
 ### إرسال البث
 
 يمكنك إرسال البث عن طريق إنشاء قالب بث وتحديد اسم لها:
 
-+ Find the **broadcast** block under **Events**
++ إبحث عن قالب **البث** تحت **الأحداث**
 
-+ Select **New Message** in the drop-down menu.
++ اختار **رسالة جديدة** من القائمة المنسدلة.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![القائمة المنسدلة للقالب البرمجي](images/broadcast-block.png)
 
-+ Then type your message
++ بعدها قم بكتابة رسالتك
 
-![اصنع بث](images/new-broadcast.png)
+![انشئ بث](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+يمكن أن يكون نص الرسالة أي شيء يعجبك، ولكن من المفيد إعطاء البث وصفاً معقولاً. ما يحدث عند استلام الرسالة يعتمد على التعليمة البرمجية (الكود) الذي قمت بكتابته.
 
 ### تلقى البث
 
-الكائن يمكن أن يستجاب لبث بإستخدام هذا القالب البرامجي:
+الكائن يمكن أن يتفاعل مع البث بإستخدام هذا القالب:
 
 ![تلقى البث](images/receive-a-broadcast.png)
 
