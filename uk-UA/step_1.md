@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Оповіщення - це спосіб надсилання повідомлення від одного спрайта іншим. Це, як оголошення, яке озвучене у гучномовец.
 
-### Send a broadcast
+### Відправити оповіщення
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+Ви можете відправити повідомлення, створивши блок "оповістити" і надавши йому ім'я:
 
-+ Find the **broadcast** block under **Events**
++ Знайдіть блок **оповістити** під **Події**
 
-+ Select **New Message** in the drop-down menu.
++ Виберіть **Нове повідомлення** у меню що випадає.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![меню, що випадає, блоку оповістити](images/broadcast-block.png)
 
-+ Then type your message
++ Потім введіть своє повідомлення
 
-![Create a broadcast](images/new-broadcast.png)
+![Створіть оповіщення](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Текст повідомлення може бути будь-яким, але важливо дати оповіщенню розумний опис. Що трапляється, коли отримане повідомлення залежить від коду, який ви пишете.
 
-### Receive a broadcast
+### Отримання оповіщення
 
-A sprite can react to a broadcast by using this block:
+Спрайт може реагувати на оповіщення за допомогою цього блоку:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![Отримання оповіщення](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+Ви можете додати блоки нижче цього блоку, щоб сказати спрайту що він має робити, коли він отримує повідомлення.
 
-![Receive example](images/receive-example.png)
+![Приклад](images/receive-example.png)
