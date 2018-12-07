@@ -1,20 +1,20 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+广播是一种从一个角色向所有角色发送消息的一种方式。 可以把它想象成从一个大喇叭发布公告。
 
 ### 发送广播
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+你可以通过创建并命名一个广播代码块来发送广播。
 
-+ Find the **broadcast** block under **Events**
++ 在 ** 事件 ** 类别下找到 ** 广播 **代码块
 
-+ Select **New Message** in the drop-down menu.
++ 在下拉菜单中选择 ** 新消息 **。
 
-![broadcast block dropdown](images/broadcast-block.png)
+![广播块下拉列表](images/broadcast-block.png)
 
-+ Then type your message
++ 然后输入您的消息
 
 ![创建广播](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+消息文本可以是您喜欢的任何内容, 但为广播提供一个明智的描述是很有用的。 收到消息时会发生什么取决于您编写的代码。
 
 ### 接收广播
 
