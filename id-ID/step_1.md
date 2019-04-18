@@ -1,20 +1,20 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Siaran adalah sebuah cara untuk mengirimkan pesan dari sebuah sprite agar bisa didengar oleh semua sprite lainnya. Kira-kira seperti pengumuman dari sebuah pengeras suara.
 
 ### Kirim siaran
 
 Kamu dapat mengirim siaran dengan membuat blok siaran dan memberinya sebuah nama:
 
-+ Find the **broadcast** block under **Events**
++ Temukan blok **Siarkan** pada bagian ** Kejadian**
 
-+ Select **New Message** in the drop-down menu.
++ Pilih **Pesan baru** di menu drop-down.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![dropdown blok siaran](images/broadcast-block.png)
 
-+ Then type your message
++ Kemudian ketikkan pesan Kamu
 
 ![Buat siaran](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Teks pada pesan dapat berupa apa pun yang kamu suka, tetapi alangkah baiknya menyiarkan sesuatu yang berguna. Apa yang terjadi ketika pesan diterima tergantung pada kode yang kamu tulis.
 
 ### Terima siaran
 
