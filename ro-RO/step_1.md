@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Difuzarea unui mesaj este o modalitate prin care un personaj poate fi auzit de toate celelalte personaje. Gândește-te exact ca la un anunț făcut la difuzor.
 
-### Transmiteti un mesaj
+### Trimite un mesaj
 
-Puteți transmite un mesaj creând un bloc de transmisiune și dându-i un nume:
+Poți trimite un mesaj adăugând un bloc difuzează și dându-i un nume:
 
-+ Find the **broadcast** block under **Events**
++ Caută blocul **difuzează** în categoria **Evenimente**
 
-+ Select **New Message** in the drop-down menu.
++ Selectează **Mesaj nou** din listă.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![lista din blocul de difuzare](images/broadcast-block.png)
 
-+ Then type your message
++ Apoi scrie mesajul tău
 
 ![Crearea unei transmisiuni](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Textul mesajului poate fi orice dorești, dar este bine să fie unul descriptiv. Ce se întâmplă când mesajul este primit, depinde de codul pe care l-ai scris.
 
-### Receptionarea unei transmisiuni
+### Primește un mesaj
 
-Un personaj poate reacționa la o transmisiune folosind acest bloc:
+Un personaj poate reacționa la un mesaj folosind acest bloc:
 
 ![Receptionarea unei transmisiuni](images/receive-a-broadcast.png)
 
-Puteți adăuga blocuri sub acest bloc pentru a spune personajului ce trebuie să facă atunci când primește semnalul transmis.
+Poți adăuga blocuri sub acest bloc pentru a spune personajului ce să facă atunci când primește mesajul difuzat.
 
 ![Exemplu de transmisiune](images/receive-example.png)
