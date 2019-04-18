@@ -1,20 +1,20 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Uma transmissão é uma maneira de enviar uma mensagem de uma figura que pode ser ouvida por todas as outras figuras. Pense que é como um anúncio feito em um auto-falante.
 
 ### Enviar uma transmissão
 
 Você pode enviar uma transmissão criando um bloco de transmissão e dando-lhe um nome:
 
-+ Find the **broadcast** block under **Events**
++ Encontre o bloco **transmita** embaixo de **Eventos**
 
-+ Select **New Message** in the drop-down menu.
++ Selecione ** Nova mensagem ** no menu suspenso.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![lista suspensa do bloco de transmissão](images/broadcast-block.png)
 
-+ Then type your message
++ Em seguida, digite a sua mensagem
 
 ![Create a broadcast](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+O texto da mensagem pode ser o que você quiser, mas é útil dar à transmissão uma descrição com sentido. O que acontece quando a mensagem é recebida depende do código que você escrever.
 
 ### Receba uma transmissão
 
