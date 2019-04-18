@@ -1,4 +1,4 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+En hændelse er en måde, at sende en besked fra en sprite, som kan høres af alle sprites. Tænk på det som en meddelelse over en højttaler.
 
 ### Send en meddelelse
 
@@ -6,7 +6,7 @@ Du kan sende en meddelelse ved at oprette en send-blok og give den et navn:
 
 + Find the **broadcast** block under **Events**
 
-+ Select **New Message** in the drop-down menu.
++ Vælg ** Ny besked ** i rullemenuen.
 
 ![broadcast block dropdown](images/broadcast-block.png)
 
@@ -14,7 +14,7 @@ Du kan sende en meddelelse ved at oprette en send-blok og give den et navn:
 
 ![Opret en meddelelse](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Meddelelsesteksten kan være nøjagtig det, du synes, men det er nyttigt at give hændelsen en fornuftig beskrivelse. What happens when the message is received depends on the code you write.
 
 ### Modtag en meddelelse
 
