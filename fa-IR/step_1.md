@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+پخش سراسری یک راه برای ارسال یک پیام از یک شبح است که می‌تواند توسط تمام شبح‌ها شنیده شود. به آن مانند یک اعلانی که از بلندگو پخش می‌شود، فکر کنید.
 
-### Send a broadcast
+### ارسال یک پخش سراسری
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+شما می‌توانید با ساخت یک بلوک پخش سراسری و نام‌گذاری آن، یک پخش سراسری را ارسال کنید:
 
-+ Find the **broadcast** block under **Events**
++ بلوک **broadcast** را در قسمت **Events** پیدا کنید
 
-+ Select **New Message** in the drop-down menu.
++ در منوی کشویی **New Message** را انتخاب کنید.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![منوی کشویی بلوک پخش سراسری](images/broadcast-block.png)
 
-+ Then type your message
++ سپس پیام خود را تایپ کنید
 
-![Create a broadcast](images/new-broadcast.png)
+![یک پخش سراسری ایجاد کنید](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+متن پیام می تواند هر چیزی باشد که دوست دارید، اما خوب است که یک توضیح معقول و مناسب را ارائه دهید. اتفاقی که هنگام دریافت پیام می‌افتد، به کدی که شما نوشته‌اید بستگی دارد.
 
-### Receive a broadcast
+### دریافت یک پخش سراسری
 
-A sprite can react to a broadcast by using this block:
+یک شبح می‌تواند با استفاده از این بلوک به یک پخش سراسری واکنش نشان دهد:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![دریافت یک پخش سراسری](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+شما می‌توانید بلوک‌ها را به زیر این بلوک اضافه کنید تا به شبح بگویید که وقتی سیگنال پخش سراسری را دریافت می کند، چه کاری باید انجام دهد.
 
-![Receive example](images/receive-example.png)
+![مثال دریافت](images/receive-example.png)
