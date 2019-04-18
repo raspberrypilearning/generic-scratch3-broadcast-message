@@ -1,20 +1,20 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Az üzenetküldés egy olyan módszer, amellyel egy szereplő egy olyan üzenetet tud küldeni, amelyet minden szereplő meghallhat. Úgy gondolj rá, mint egy bejelentésre a hangosbemondón keresztül.
 
 ### Küldj egy üzenetet
 
 Üzenet küldéséhez hozz létre egy üzenetküldő blokkot, és adj neki egy nevet:
 
-+ Find the **broadcast** block under **Events**
++ Keresd meg a **küldj üzenetet** blokkot az **Események** lapon.
 
-+ Select **New Message** in the drop-down menu.
++ Válaszd ki az **Új üzenet** menüpontot a legördülő menüből.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![üzenetküldő blokk menüje](images/broadcast-block.png)
 
-+ Then type your message
++ Ezután írd be az üzenetet.
 
 ![Hozz létre egy üzenetet](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Az üzenet szövege bármi lehet, amit szeretnél, de hasznos, ha az üzenetnek értelmes a leírása. Az, hogy mi történik az üzenet fogadásakor, az általad írt kódtól függ.
 
 ### Üzenet fogadása
 
@@ -22,6 +22,6 @@ Egy szereplő az alábbi blokkal reagálhat az üzenetre:
 
 ![Üzenet fogadása](images/receive-a-broadcast.png)
 
-A blokk alá hozzáadhatsz blokkokat, hogy megmond a szereplőnek, mit kell tennie az üzenet fogadásakor.
+A blokk alá hozzáadhatsz blokkokat, hogy megmondd a szereplőnek, mit kell tennie az üzenet fogadásakor.
 
 ![Példa üzenet fogadására](images/receive-example.png)
