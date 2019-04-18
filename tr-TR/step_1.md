@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Haber; bir kukla mesajının, tüm kuklalar tarafından duyulmasını sağlayan mesaj gönderme yoludur. Bunu hoparlör üzerinden yapılan bir duyuru gibi düşünün.
 
-### Send a broadcast
+### Bir haber gönderme
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+Bir haberi; haber bloğu oluşturup ve ona bir isim vererek gönderebilirsiniz:
 
-+ Find the **broadcast** block under **Events**
++ **Olaylar** sekmesinden **haber** 'i bulun
 
-+ Select **New Message** in the drop-down menu.
++ Açılır menüden **Yeni haber** 'i seçin.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![haber bloğu açılır menüsü](images/broadcast-block.png)
 
-+ Then type your message
++ Sonra mesajınızı yazın
 
-![Create a broadcast](images/new-broadcast.png)
+![Bir haber oluştur](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Mesaj metni dilediğiniz herhangi bir şey olabilir, ancak habere mantıklı bir açıklama vermek faydalıdır. Mesaj alındığında ne olacağı yazdığınız koda bağlıdır.
 
-### Receive a broadcast
+### Bir haber almak
 
-A sprite can react to a broadcast by using this block:
+Bir kukla, bu bloğu kullanarak bir habere tepki verebilir:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![Bir haber almak](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+Kuklaya, haber sinyalini aldığında ne yapacağını söylemek için bu bloğun altına başka bloklar ekleyebilirsiniz.
 
-![Receive example](images/receive-example.png)
+![Örnek almak](images/receive-example.png)
