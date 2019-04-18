@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Phát sóng là một cách để gửi một tin nhắn từ một đối tượng- đồ hoạ máy tính- có thể được nghe bởi tất cả các đối tượng khác. Hãy nghĩ về nó giống như một thông báo được thực hiện qua loa.
 
-### Send a broadcast
+### Gửi một tin
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+Bạn có thể gửi một tin bằng cách tạo một khối phát sóng và đặt tên cho nó:
 
-+ Find the **broadcast** block under **Events**
++ Tìm khối **phát sóng ** dưới **Sự kiện**
 
-+ Select **New Message** in the drop-down menu.
++ Chọn **Tin nhắn mới** trong menu thả xuống.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![trình đơn thả xuống chặn quảng cáo](images/broadcast-block.png)
 
-+ Then type your message
++ Sau đó nhập tin nhắn của bạn
 
-![Create a broadcast](images/new-broadcast.png)
+![Tạo một tin nhắn](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Nội dung tin nhắn có thể là bất cứ điều gì bạn thích, nhưng cung cấp cho các phát sóng một mô tả hợp lý sẽ hữu ích. Điều gì sẽ xảy ra khi nhận được tin nhắn phụ thuộc vào mã bạn viết.
 
-### Receive a broadcast
+### Nhận một chương trình phát sóng
 
-A sprite can react to a broadcast by using this block:
+Một sprite có thể phản ứng với một phát sóng bằng cách sử dụng khối này:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![Nhận một chương trình phát sóng](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+Bạn có thể thêm các khối bên dưới khối này để báo cho sprite biết phải làm gì khi nhận được tín hiệu phát sóng.
 
-![Receive example](images/receive-example.png)
+![Nhận ví dụ](images/receive-example.png)
