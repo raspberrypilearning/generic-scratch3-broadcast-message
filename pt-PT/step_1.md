@@ -1,4 +1,4 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Uma difusão de mensagem é uma maneira de enviar uma mensagem de um actor que pode ser ouvida por todos os actores. Think of it like an announcement made over a loudspeaker.
 
 ### Difundir uma mensagem
 
