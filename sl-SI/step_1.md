@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Objava je način, na katerega figura pošlje sporočilo, ki ga lahko slišijo vse figure. Razmišljaj o njej, kot da bi šlo za objavo preko zvočnika.
 
-### Send a broadcast
+### Pošlji objavo
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+Objavo lahko pošlješ tako, da ustvariš blok "objavi" in jo poimenuješ:
 
-+ Find the **broadcast** block under **Events**
++ Poišči blok **"objavi"** med **Dogodki**
 
-+ Select **New Message** in the drop-down menu.
++ V spustnem meniju izberi **Novo sporočilo**.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![spustni meni bloka "objavi"](images/broadcast-block.png)
 
-+ Then type your message
++ Nato vnesi svoje sporočilo
 
-![Create a broadcast](images/new-broadcast.png)
+![Ustvari objavo](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Besedilo sporočila je lahko karkoli, vendar je za uporabnost pomembno, da ima objava smiseln opis. Kaj se zgodi po prejemu sporočila je odvisno od kode, ki jo napišete.
 
-### Receive a broadcast
+### Sprejem objave
 
-A sprite can react to a broadcast by using this block:
+Figura se lahko odzove na objavo z uporabo tega bloka:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![Prejem objave](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+Pod tem blokom lahko dodaš bloke, ki povedo figuri, kaj naj stori, ko prejme neko objavo.
 
-![Receive example](images/receive-example.png)
+![Primer prejema objave](images/receive-example.png)
