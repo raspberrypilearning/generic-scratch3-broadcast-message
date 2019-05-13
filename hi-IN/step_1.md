@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+एक प्रसारण एक स्प्राइट से एक संदेश भेजने का एक तरीका है जिसे सभी स्प्राइट द्वारा सुना जा सकता है। इसे लाउडस्पीकर पर की गई घोषणा की तरह समझें।
 
 ### प्रसारण भेजें
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+आप एक प्रसारण(broadcast) ब्लॉक बनाकर और इसे एक नाम देकर प्रसारण भेज सकते हैं:
 
-+ Find the **broadcast** block under **Events**
++ **प्रसारण(broadcast)** ब्लॉक को **ईवेंट(Event)** के तहत खोजें ।
 
-+ Select **New Message** in the drop-down menu.
++ ड्रॉप-डाउन मेनू में **नए संदेश(New Message)** का चयन करें ।
 
 ![broadcast block dropdown](images/broadcast-block.png)
 
-+ Then type your message
++ फिर अपना संदेश लिखें
 
-![प्रसारण बनाएं](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+संदेश पाठ कुछ भी आप चाहे वो हो सकता है, लेकिन प्रसारण को एक समझदार वर्णन देना उपयोगी है । संदेश प्राप्त होने पर क्या होता है वह आपके लिखित कोड पर निर्भर करता है ।
 
 ### प्रसारण प्राप्त करें
 
-स्प्राइट इस ब्लॉक का उपयोग कर प्रसारण पर प्रतिक्रिया कर सकता है:
+A sprite can react to a broadcast by using this block:
 
-![प्रसारण प्राप्त करें](images/receive-a-broadcast.png)
+![Receive a broadcast](images/receive-a-broadcast.png)
 
 आप स्प्राइट को प्रसारण संदेश प्राप्त करने पर क्या करना है बताने के लिए इस ब्लॉक के नीचे ब्लॉक्स जोड़ सकते हैं।
 
-![उदाहरण प्राप्त करें](images/receive-example.png)
+![Receive example](images/receive-example.png)
