@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Mae darllediad yn ffordd o anfon neges gan un corlun y gellir ei chlywed gan yr holl gorluniau. Meddylia amdano fel cyhoeddiad dros uchelseinydd.
 
-### Send a broadcast
+### Anfon darllediad
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+Gelli di anfon darllediad gan greu bloc darlledu a rhoi enw arno:
 
-+ Find the **broadcast** block under **Events**
++ Tyrd o hyd i'r bloc **darlledu** yn yr adran **Digwyddiadau**
 
-+ Select **New Message** in the drop-down menu.
++ Dewisa **Neges Newydd** yn y gwymplen.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![cwymplen bloc darlledu](images/broadcast-block.png)
 
-+ Then type your message
++ Yna teipia dy neges
 
-![Create a broadcast](images/new-broadcast.png)
+![Creu darllediad](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Gall y testun fod yn unrhywbeth yr hoffet ti, ond mae'n ddefnyddiol i roi disgrifiad synhwyrol i'r darllediad. Mae'r hyn sy'n digwydd pan mae'r neges yn cael ei dderbyn yn dibynnu ar y côd rwyt ti'n ei ysgrifennu.
 
-### Receive a broadcast
+### Derbyn darllediad
 
-A sprite can react to a broadcast by using this block:
+Gall ciplun ymateb i ddarllediad gan ddefnyddio'r bloc hwn:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![Derbyn darllediad](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+Gelli di ychwanegu blociau o dan y bloc hwn i ddweud wrth y corlun beth i'w wneud pan fydd yn derbyn y darllediad.
 
-![Receive example](images/receive-example.png)
+![Derbyn enghraifft](images/receive-example.png)
