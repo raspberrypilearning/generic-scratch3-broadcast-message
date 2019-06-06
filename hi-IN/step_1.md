@@ -18,7 +18,7 @@
 
 ### प्रसारण प्राप्त करें
 
-A sprite can react to a broadcast by using this block:
+स्प्राइट इस ब्लॉक का उपयोग कर प्रसारण पर प्रतिक्रिया कर सकता है:
 
 ![Receive a broadcast](images/receive-a-broadcast.png)
 
