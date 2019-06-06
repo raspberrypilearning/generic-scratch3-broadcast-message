@@ -1,20 +1,20 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+브로드캐스트는 모든 스프라이트 들을 수 있는 스프라이트에서 메시지를 보내는 방법입니다. 확성기를 통한 안내와 같이 생각하십시오.
 
 ### 브로드캐스트 전송
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+방송 블록을 만들고 메시지 이름을 지정하면 메시지를 방송할 수 있습니다:
 
-+ Find the **broadcast** block under **Events**
++ **이벤트** 항목에서 **방송하기(브로드캐스트)** 블록을 찾으세요.
 
-+ Select **New Message** in the drop-down menu.
++ 메시지1 이라고 적혀 있는 드롭다운 메뉴를 클릭하여, **새로운 메시지**를 클릭합니다.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![방송하기 블록 드롭다운](images/broadcast-block.png)
 
-+ Then type your message
++ 메시지를 입력하세요.
 
 ![방송 만들기](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+메시지 텍스트는 자신이 원하는 문구를 적을 수 있으나, 어떤 용도로 쓰이는 메시지인지 명확하게 적는 것이 필요합니다. 메시지를 받을 때 어떤 일이 일어나는지는 작성한 코드에 따라서 달라집니다.
 
 ### 메시지 받기
 
