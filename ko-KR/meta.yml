@@ -1,0 +1,9 @@
+---
+title: 스크래치에서 메시지 방송하기
+hero_image: images/banner.png
+description: 다른 스프라이트가 반응하도록 메시지를 "방송"해보아요.
+listed: false
+ingredient: true
+copyedit: true
+steps:
+  - title: 소개
