@@ -1,20 +1,20 @@
-Uma difusão de mensagem é uma maneira de enviar uma mensagem de um actor que pode ser ouvida por todos os actores. Think of it like an announcement made over a loudspeaker.
+Uma difusão de mensagem é uma maneira de enviar uma mensagem de um actor que pode ser ouvida por todos os actores. Pensa que é como um anúncio feito num altifalante.
 
 ### Difundir uma mensagem
 
 Podes difundir uma mensagem criando um bloco de difusão de mensagem e dando-lhe um nome:
 
-+ Find the **broadcast** block under **Events**
++ Encontra o bloco ** difunde uma mensagem** no separador ** Eventos **
 
-+ Select **New Message** in the drop-down menu.
++ Seleciona ** Nova mensagem ** no menu suspenso.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![lista suspensa de blocos de transmissão](images/broadcast-block.png)
 
-+ Then type your message
++ Escreve a tua mensagem
 
 ![Create a broadcast](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+O texto da mensagem pode ser o que quiseres, mas é útil dar à difusão uma descrição com sentido. O que acontece quando a mensagem é recebida depende do código que escreveres.
 
 ### Receber uma transmissão
 
