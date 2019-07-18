@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+En melding er en måte å få en figur til å si noe som kan høres av alle andre figurer. Tenk på det som en kunngjøring gjort over en høyttaler.
 
-### Send a broadcast
+### Send en melding
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+Du kan sende en melding ved å opprette en send melding-kloss og gi den et navn:
 
-+ Find the **broadcast** block under **Events**
++ Finn **send melding**-klossen under **hendelser**
 
-+ Select **New Message** in the drop-down menu.
++ Velg **Ny melding** i rullegardinmenyen.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![send melding-kloss nedtrekksmeny](images/broadcast-block.png)
 
-+ Then type your message
++ Skriv deretter inn meldingen din
 
-![Create a broadcast](images/new-broadcast.png)
+![Lag en melding](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Meldingen kan være hva som helst, men det er nyttig å gi den en fornuftig beskrivelse. Hva som skjer når meldingen mottas avhenger av koden du skriver.
 
-### Receive a broadcast
+### Motta en melding
 
-A sprite can react to a broadcast by using this block:
+En figur kan reagere på en melding ved å bruke denne klossen:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![Motta en melding](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+Du kan legge til klosser under denne klossen for å fortelle figuren hva den skal gjøre når den mottar meldingen.
 
-![Receive example](images/receive-example.png)
+![Motta eksempel](images/receive-example.png)
