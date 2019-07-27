@@ -6,7 +6,7 @@ Bạn có thể gửi một tin bằng cách tạo một khối phát sóng và 
 
 + Tìm khối **phát sóng ** dưới **Sự kiện**
 
-+ Chọn **Tin nhắn mới** trong menu thả xuống.
++ Select **New Message** in the drop-down menu.
 
 ![trình đơn thả xuống chặn quảng cáo](images/broadcast-block.png)
 
@@ -16,12 +16,12 @@ Bạn có thể gửi một tin bằng cách tạo một khối phát sóng và 
 
 Nội dung tin nhắn có thể là bất cứ điều gì bạn thích, nhưng cung cấp cho các phát sóng một mô tả hợp lý sẽ hữu ích. Điều gì sẽ xảy ra khi nhận được tin nhắn phụ thuộc vào mã bạn viết.
 
-### Nhận một chương trình phát sóng
+### Nhận một tin nhắn
 
-Một sprite có thể phản ứng với một phát sóng bằng cách sử dụng khối này:
+Một đối tượng có thể phản ứng với một tin bằng cách sử dụng khối này:
 
 ![Nhận một chương trình phát sóng](images/receive-a-broadcast.png)
 
-Bạn có thể thêm các khối bên dưới khối này để báo cho sprite biết phải làm gì khi nhận được tín hiệu phát sóng.
+Bạn có thể thêm các khối bên dưới khối này để báo cho đối tượng biết phải làm gì khi nhận được tin.
 
 ![Nhận ví dụ](images/receive-example.png)
