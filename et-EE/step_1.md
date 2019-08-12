@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Saade on sõnumi saatmise viis spraidist, mida kuulevad kõik spraidid. Mõelge sellele nagu valjuhääldi kohta tehtud teadaanne.
 
-### Send a broadcast
+### Saada saade
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+Saate saate saata, luues saateploki ja määrates sellele nime:
 
-+ Find the **broadcast** block under **Events**
++ Leia **saade** plokk **Sündmuste** alt
 
-+ Select **New Message** in the drop-down menu.
++ Vali rippmenüüst **Uus Sõnum**.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![saateploki rippmenüü](images/broadcast-block.png)
 
-+ Then type your message
++ Siis kirjuta oma sõnum
 
-![Create a broadcast](images/new-broadcast.png)
+![Loo saade](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Sõnumi tekst võib olla mis iganes sulle meeldib, kuid on kasulik anda levitamisele loogiline kirjeldus. See, mis juhtub, kui sõnum vastu võetakse, sõltub kirjutatavast koodist.
 
-### Receive a broadcast
+### Võta saade vastu
 
-A sprite can react to a broadcast by using this block:
+Sprite saab saatele reageerida järgmise ploki abil:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![Võta saade vastu](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+Selle ploki alla saad lisada plokke, et öelda spraidile, mida teha, kui see võtab vastu saatesignaali.
 
-![Receive example](images/receive-example.png)
+![Võta näide vastu](images/receive-example.png)
