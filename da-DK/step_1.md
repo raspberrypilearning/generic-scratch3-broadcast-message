@@ -4,17 +4,17 @@ En hændelse er en måde, at sende en besked fra en sprite, som kan høres af al
 
 Du kan sende en meddelelse ved at oprette en send-blok og give den et navn:
 
-+ Find the **broadcast** block under **Events**
++ Find **send** blokken under **Hændelser**
 
 + Vælg ** Ny besked ** i rullemenuen.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![send blok rullemenu](images/broadcast-block.png)
 
-+ Then type your message
++ Skriv derefter din besked
 
 ![Opret en meddelelse](images/new-broadcast.png)
 
-Meddelelsesteksten kan være nøjagtig det, du synes, men det er nyttigt at give hændelsen en fornuftig beskrivelse. What happens when the message is received depends on the code you write.
+Meddelelsesteksten kan være nøjagtig det, du synes, men det er nyttigt at give hændelsen en fornuftig beskrivelse. Hvad der sker, når meddelelsen modtages, afhænger af den kode, du skriver.
 
 ### Modtag en meddelelse
 
