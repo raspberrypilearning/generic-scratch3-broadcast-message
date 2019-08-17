@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+විකාශනය(broadcast) යනු එක් sprite එකකින් සෑම sprite එකකටම සවන් දිය හැකි ආකාරයෙන් පණිවිඩයක් යවන ක්‍රමයකි. එය ශබ්ද විකාශන යන්ත්‍රයක් හරහා කළ නිවේදනයක් මෙන් සිතන්න.
 
-### Send a broadcast
+### විකාශනය කරන්න
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+විකාශන කට්ටියක්(broadcast block) නිර්මාණය කර එයට නමක් ලබා දීමෙන් විකාශනයක් කළ හැකිය:
 
-+ Find the **broadcast** block under **Events**
++ **Events** යටතේ ඇති **විකාශන(broadcast)** කට්ටියක්(block) තෝරන්න.
 
-+ Select **New Message** in the drop-down menu.
++ පතන මෙනුවේ ඇති **නව පණිවිඩය(New Message)** තෝරන්න.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![විකාශන(broadcast) කට්ටි(block) පතන මෙනුව](images/broadcast-block.png)
 
-+ Then type your message
++ ඉන්පසු ඔබේ පණිවිඩය ටයිප් කරන්න
 
-![Create a broadcast](images/new-broadcast.png)
+![විකාශනයක්(broadcast) සාදන්න](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+පණිවිඩ පෙළ ඔබ කැමති ඕනෑම දෙයක් විය හැකි නමුත් විකාශනය සඳහා නිවැරදි විස්තරයක් ලබා දීම ප්‍රයෝජනවත්වේ. පණිවිඩය ලැබුණු විට කුමක් සිදුවේද යන්න ඔබ ලියන කේතය(code) මත රඳා පවතී.
 
-### Receive a broadcast
+### විකාශනය ලබාගන්න
 
-A sprite can react to a broadcast by using this block:
+මෙම කට්ටිය(block) භාවිතා කිරීමෙන් sprite එක විකාශනයකට ප්‍රතික්‍රියා කරයි:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![විකාශනය ලබාගන්න](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+මෙම කට්ටියට(block) පහළින් තවත් කට්ටි(blocks) එක්කරගත හැක, එමගින් sprite එකකට විකාශන පනිවිඩයක් ලැබුණු විට කුමක් කළ යුතු දැයි කියවේ.
 
-![Receive example](images/receive-example.png)
+![උදාහරණයක් ගන්න](images/receive-example.png)
