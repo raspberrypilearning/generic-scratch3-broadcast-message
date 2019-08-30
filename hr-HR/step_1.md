@@ -4,7 +4,7 @@ Emitiranjem lik može poslati poruke koju mogu čuti svi drugi likovi. Zamisli t
 
 Možeš poslati poruku tako da kreiraš blok za emitiranje i daš mu ime:
 
-+ Pronađi **pošalji** blok na kartici **Događaji**
++ Pronađi blok **pošalji** na kartici **Događaji**
 
 + Odaberi **Nova poruka** u padajućem izborniku.
 
