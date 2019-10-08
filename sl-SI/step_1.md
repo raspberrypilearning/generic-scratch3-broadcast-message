@@ -1,6 +1,6 @@
 Objava je način, na katerega figura pošlje sporočilo, ki ga lahko slišijo vse figure. Razmišljaj o njej, kot da bi šlo za objavo preko zvočnika.
 
-### Pošlji objavo
+### Pošiljanje objave
 
 Objavo lahko pošlješ tako, da ustvariš blok "objavi" in jo poimenuješ:
 
