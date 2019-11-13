@@ -1,7 +1,7 @@
 ---
-title: スクラッチでメッセージを発信する
+title: Scratchでメッセージを送る
 hero_image: images/banner.png
-description: さまざまなスプライトが処理できるメッセージを発信する方法を学ぶ
+description: 別のスプライトに命令するメッセージの送り方を学ぶ
 listed: false
 ingredient: true
 copyedit: true
