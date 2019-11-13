@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+「メッセージ」を使うと、スプライトから他のすべてのスプライトにメッセージを送ることができます。 メガホンを使ってお知らせしているような感じです。
 
-### ブロードキャストを送る
+### メッセージを送る
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+メッセージを送るには、「～を送る」ブロックを作り、名前をつけます。
 
-+ Find the **broadcast** block under **Events**
++ **イベント**から**「～を送る」**ブロックをえらびます。
 
-+ Select **New Message** in the drop-down menu.
++ ドロップダウンメニューから**新しいメッセージ**をクリックします。
 
-![broadcast block dropdown](images/broadcast-block.png)
+![「～を送る」ブロックのドロップダウン](images/broadcast-block.png)
 
-+ Then type your message
++ メッセージを入力します。
 
-![ブロードキャストを作成する](images/new-broadcast.png)
+![メッセージを作る](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+メッセージの文はどのようなものでも良いですが、わかりやすい説明にしておいた方がべんりです。 メッセージを受け取った時に何が起こるかは、コードによって変わります。
 
-### ブロードキャストを受け取る
+### メッセージを受け取る
 
-スプライトはこのブロックを使用してブロードキャストに反応することができます：
+スプライトはこのブロックを使うことでメッセージに反応 (はんのう) します。
 
-![ブロードキャストを受け取る](images/receive-a-broadcast.png)
+![メッセージを受け取る](images/receive-a-broadcast.png)
 
-このブロックの下にブロックを追加して、スプライトがブロードキャスト信号を受け取ったときに何をすべきかを指示できます。
+このブロックの下にブロックを追加することで、スプライトがメッセージを受け取ったときに何をすべきかを命令できます。
 
-![受け取りの例](images/receive-example.png)
+![メッセージを受け取った例 (れい)](images/receive-example.png)
