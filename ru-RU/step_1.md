@@ -1,20 +1,20 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Передача (трансляция) сообщения — способ отправки сообщения спрайтом, которое может быть услышано другими спрайтами. Думай об этом как об уведомлении, сделанном через громкоговоритель.
 
 ### Передача сообщения
 
 Ты можешь передать сообщение, создав блок передачи и присвоив ему имя:
 
-+ Find the **broadcast** block under **Events**
++ Найди блок **передать** в **Событиях**
 
-+ Select **New Message** in the drop-down menu.
++ Выберите **Новое сообщение** в раскрывающемся меню.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![раскрывающееся меню блока передачи](images/broadcast-block.png)
 
-+ Then type your message
++ Введи имя (текст) сообщения
 
 ![Создание сообщения](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Имя (текст) сообщения может быть любым, но удобно как-либо разумно описать сообщение в его имени. Что происходит при получении сообщения задаётся в коде, который ты напишешь.
 
 ### Получение сообщения
 
