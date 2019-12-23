@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Vysielanie je spôsob, akým postava pošle správu, ktorú môžu počuť všetky ostatné postavy. Premýšľajte o tom ako o oznámení cez reproduktor.
 
-### Send a broadcast
+### Odoslať vysielanie
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+Vysielanie môžete odoslať vytvorením rozhlasového bloku a jeho názvom:
 
-+ Find the **broadcast** block under **Events**
++ Nájdite blok **Vyšli správu** v časti **Udalosti**
 
-+ Select **New Message** in the drop-down menu.
++ Z možností ponuky vyberte položku **Nová správa**.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![rozbaľovací zoznam bloku vysielania](obrazok/broadcast-block.png)
 
-+ Then type your message
++ Potom zadajte svoju správu
 
-![Create a broadcast](images/new-broadcast.png)
+![Vytvorenie vysielania](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Text správy môže byť čokoľvek, čo sa vám páči, ale je užitočné dať vysielaniu rozumný popis. Čo sa stane po prijatí správy, závisí od kódu, ktorý ste napísali.
 
-### Receive a broadcast
+### Prijatie vysielania
 
-A sprite can react to a broadcast by using this block:
+Postava môže reagovať na vysielanie pomocou tohto bloku:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![Prijatie vysielania](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+Pod týmto blokom môžete pridať ďalšie bloky, aby ste povedali, čo sa má diať, keď sa vysielaný signál prijme.
 
-![Receive example](images/receive-example.png)
+![Príklad prijatia správy](images/receive-example.png)
