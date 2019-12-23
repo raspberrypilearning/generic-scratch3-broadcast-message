@@ -8,7 +8,7 @@ Vysielanie môžete odoslať vytvorením rozhlasového bloku a jeho názvom:
 
 + Z možností ponuky vyberte položku **Nová správa**.
 
-![rozbaľovací zoznam bloku vysielania](obrazok/broadcast-block.png)
+![rozbaľovací zoznam bloku vysielania](images/broadcast-block.png)
 
 + Potom zadajte svoju správu
 
