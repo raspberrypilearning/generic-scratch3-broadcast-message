@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+廣播訊息是角色發出訊息的一種方式，所有角色都收得到。 你可以把它想成像是利用擴音器發表聲明。
 
-### Send a broadcast
+### 發送廣播訊息
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+你可以建立一個廣播訊息積木並為其命名以發送廣播訊息：
 
-+ Find the **broadcast** block under **Events**
++ 在**事件**欄位中找出**廣播訊息**積木
 
-+ Select **New Message** in the drop-down menu.
++ 在下拉式選單中選擇**新的訊息**
 
-![broadcast block dropdown](images/broadcast-block.png)
+![廣播積木下拉式選單](images/broadcast-block.png)
 
-+ Then type your message
++ 接著輸入你的訊息
 
-![Create a broadcast](images/new-broadcast.png)
+![建立廣播](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+訊息的文字可以任意撰寫，但是如果能對廣播的內容提供一個合理敘述的話，會變得非常有用。 收到訊息時會發生什麼事情取決於您撰寫的程式碼。
 
-### Receive a broadcast
+### 接收廣播訊息
 
-A sprite can react to a broadcast by using this block:
+角色可以使用此積木對廣播做出反應：
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![接收廣播](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+您可以在這個積木下方添加其他積木，以告訴角色在收到廣播時要採取什麼行動。
 
-![Receive example](images/receive-example.png)
+![接收範例](images/receive-example.png)
