@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+ஒரு வலைப்பின்னல் என்பது ஒரு Sprite-இன் ஒரு செய்தியை அனுப்புவதற்கான ஒரு வழியாகும். ஒலிபெருக்கி மூலம் வெளியிடப்பட்ட அறிவிப்பைப் போல நினைத்துப் பாருங்கள்.
 
-### Send a broadcast
+### ஒளிபரப்பை அனுப்பவும்
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+ஒளிபரப்புத் தொகுதியை உருவாக்கி அதற்கு ஒரு பெயரைக் கொடுத்து ஒளிபரப்பை அனுப்பலாம்:
 
-+ Find the **broadcast** block under **Events**
++ ** ஒளிபரப்பைக் கண்டறியவும் ** ** நிகழ்வுகளின் கீழ் தடு **
 
-+ Select **New Message** in the drop-down menu.
++ ** புதிய செய்தியைத் ** கீழ்தோன்றும் மெனுவில் தேர்ந்தெடுக்கவும்.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![ஒளிபரப்பு தொகுதி கீழிறங்கும்](படங்கள் / ஒளிபரப்பு- block.png)
 
-+ Then type your message
++ பின்னர் உங்கள் செய்தியைத் தட்டச்சு செய்க
 
-![Create a broadcast](images/new-broadcast.png)
+![ஒளிபரப்பை உருவாக்கவும்](படங்கள் / புதிய-ஒளிபரப்பு. png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+செய்தி உரை நீங்கள் விரும்பும் எதையும் கொண்டிருக்கலாம், ஆனால் ஒளிபரப்பிற்கு விவேகமான விளக்கத்தை வழங்குவது பயனுள்ளதாக இருக்கும். செய்தி வரும்போது என்ன நடக்கும் என்பது நீங்கள் எழுதும் குறியீட்டைப் பொறுத்தது.
 
-### Receive a broadcast
+### ஒளிபரப்பைப் பெறுக
 
-A sprite can react to a broadcast by using this block:
+ஒரு ஸ்பிரிட் இந்த வலைப்பின்னலைப் பயன்படுத்தி ஒரு வலைபரப்பிற்கு பதிலளிக்க முடியும்:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![ஒளிபரப்பைப் பெறுக](படங்கள் / பெறுதல்-ஒரு-ஒளிபரப்பு. png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+இந்த வலைப்பின்னலுக்கு கீழே தொகுதிகள் சேர்க்கலாம், இது ஸ்பிரட் சிக்னலைப் பெறும் போது என்ன செய்ய வேண்டும் என்பதை ஸ்பிரிட் சொல்லவும்.
 
-![Receive example](images/receive-example.png)
+![உதாரணத்தைப் பெறுங்கள்](படங்கள் / பெறுதல்-உதாரணம். png)
