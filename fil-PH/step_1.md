@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Ang broadcast ay isang paraan ng pagpapadala ng isang mensahe mula sa isang sprite na maaaring marinig ng lahat ng mga sprite. Isipin mo ito ng parang isang anunsyo na ginawa sa isang loudspeaker.
 
-### Send a broadcast
+### Magpadala ng isang broadcast
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+Maaari kang magpadala ng isang broadcast sa pamamagitan ng paglikha ng isang broadcast block at pagbibigay nito ng isang pangalan:
 
-+ Find the **broadcast** block under **Events**
++ Hanapin ang **broadcast** block sa ilalim ng **Kaganapan**
 
-+ Select **New Message** in the drop-down menu.
++ Piliin ang **Bagong Mensahe** sa drop-down menu.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![I-dropdown ang broadcast block](images/broadcast-block.png)
 
-+ Then type your message
++ Pagkatapos ay i-type ang iyong mensahe
 
-![Create a broadcast](images/new-broadcast.png)
+![Lumikha ng isang broadcast](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Ang message text ay maaaring maging kung anumang gusto mo, ngunit kapaki-pakinabang na bigyan ang broadcast ng isang makatwirang paglalarawan. Nakadepende sa sinulat mong code ang mangyayari sa natanggap na mensahe.
 
-### Receive a broadcast
+### Tumanggap ng isang broadcast
 
-A sprite can react to a broadcast by using this block:
+Ang sprite ay maaaring tumugon sa isang broadcast sa pamamagitan ng paggamit ng block na ito:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![Tumanggap ng isang broadcast](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+Maaari kang magdagdag ng mga blocks sa ibaba ng block na ito upang sabihin sa sprite kung ano ang gagawin kapag natanggap nito ang broadcast signal.
 
-![Receive example](images/receive-example.png)
+![Tumanggap ng halimbawa](images/receive-example.png)
