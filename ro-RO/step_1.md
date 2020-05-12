@@ -1,27 +1,27 @@
-Difuzarea unui mesaj este o modalitate prin care un personaj poate fi auzit de toate celelalte personaje. Gândește-te exact ca la un anunț făcut la difuzor.
+Transmiterea unui mesaj este o modalitate prin care un personaj poate fi auzit de toate celelalte personaje. Gândește-te exact ca la un anunț făcut la difuzor.
 
-### Trimite un mesaj
+### Trimiterea unui mesaj
 
-Poți trimite un mesaj adăugând un bloc difuzează și dându-i un nume:
+Poți trimite un mesaj adăugând un bloc „difuzează” și dându-i un nume:
 
 + Caută blocul **difuzează** în categoria **Evenimente**
 
 + Selectează **Mesaj nou** din listă.
 
-![lista din blocul de difuzare](images/broadcast-block.png)
+![lista din blocul de transmisie](images/broadcast-block.png)
 
 + Apoi scrie mesajul tău
 
 ![Crearea unei transmisiuni](images/new-broadcast.png)
 
-Textul mesajului poate fi orice dorești, dar este bine să fie unul descriptiv. Ce se întâmplă când mesajul este primit, depinde de codul pe care l-ai scris.
+Textul mesajului poate fi orice dorești, dar este bine să fie unul descriptiv. Ce se întâmplă când mesajul este recepționat, depinde de codul pe care l-ai scris.
 
-### Primește un mesaj
+### Recepționarea unei transmisiuni
 
-Un personaj poate reacționa la un mesaj folosind acest bloc:
+Un personaj poate reacționa la o transmisiune folosind acest bloc:
 
-![Receptionarea unei transmisiuni](images/receive-a-broadcast.png)
+![Recepționarea unei transmisiuni](images/receive-a-broadcast.png)
 
-Poți adăuga blocuri sub acest bloc pentru a spune personajului ce să facă atunci când primește mesajul difuzat.
+Poți adăuga blocuri sub acest bloc pentru a spune personajului ce să facă atunci când primește mesajul transmis.
 
 ![Exemplu de transmisiune](images/receive-example.png)
