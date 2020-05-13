@@ -8,11 +8,11 @@
 
 + ड्रॉप-डाउन मेनू में **नए संदेश(New Message)** का चयन करें ।
 
-![broadcast block dropdown](images/broadcast-block.png)
+![प्रसारण ब्लॉक ड्रॉपडाउन](images/broadcast-block.png)
 
 + फिर अपना संदेश लिखें
 
-![Create a broadcast](images/new-broadcast.png)
+![प्रसारण बनाएं](images/new-broadcast.png)
 
 संदेश पाठ कुछ भी आप चाहे वो हो सकता है, लेकिन प्रसारण को एक समझदार वर्णन देना उपयोगी है । संदेश प्राप्त होने पर क्या होता है वह आपके लिखित कोड पर निर्भर करता है ।
 
@@ -20,8 +20,8 @@
 
 स्प्राइट इस ब्लॉक का उपयोग कर प्रसारण पर प्रतिक्रिया कर सकता है:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![प्रसारण प्राप्त करें](images/receive-a-broadcast.png)
 
 आप स्प्राइट को प्रसारण संदेश प्राप्त करने पर क्या करना है बताने के लिए इस ब्लॉक के नीचे ब्लॉक्स जोड़ सकते हैं।
 
-![Receive example](images/receive-example.png)
+![उदाहरण प्राप्त करें](images/receive-example.png)
