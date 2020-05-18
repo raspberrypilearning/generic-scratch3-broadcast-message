@@ -1,20 +1,20 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+La diffusione (broadcast) di messaggi è il modo che uno sprite ha per essere sentito da tutti gli sprite. Pensalo come un annuncio fatto su un altoparlante.
 
 ### Inviare un messaggio
 
 È possibile inviare un messaggio creando un blocco "invia a tutti" e assegnando un nome al messaggio:
 
-+ Find the **broadcast** block under **Events**
++ Trova il blocco **invia a tutti** sotto **Situazioni**
 
-+ Select **New Message** in the drop-down menu.
++ Seleziona **Nuovo messaggio** nel menu a discesa.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![menù a discesa del blocco di trasmissione](images/broadcast-block.png)
 
-+ Then type your message
++ Quindi digita il tuo messaggio
 
 ![Creare un messaggio](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+Il testo del messaggio può essere qualsiasi cosa tu voglia, ma è utile dare alla trasmissione una descrizione sensata. Cosa succede quando il messaggio viene ricevuto dipende dal codice che scrivi.
 
 ### Ricevere un messaggio
 
@@ -24,4 +24,4 @@ Uno sprite può reagire ad un messaggio usando questo blocco:
 
 È possibile aggiungere altri blocchi sotto questo blocco per dire allo sprite cosa fare quando riceve il messaggio trasmesso.
 
-![Ricevere un esempio](images/receive-example.png)
+![Esempio di ricezione](images/receive-example.png)
