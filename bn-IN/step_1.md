@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+সম্প্রচার হ'ল একটি sprite থেকে বার্তা/message প্রেরণের একটি উপায় যা বাকি সমস্ত sprite শুনতে পায়।. এটিকে কোনও লাউড স্পিকারের মাধ্যমে ঘোষণার মতো মনে করুন।.
 
-### Send a broadcast
+### একটি সম্প্রচার বার্তা বা broadcast পাঠান
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+আপনি একটি সম্প্রচারের ব্লক তৈরি করে তার মাধ্যমে বার্তা পাঠাতে পারেন এবং এটির একটি নাম দিতে পারেন:
 
-+ Find the **broadcast** block under **Events**
++ **broadcast** ব্লকটি **Events** এর মধ্যে খুজুন
 
-+ Select **New Message** in the drop-down menu.
++ ড্রপ-ডাউন মেনুতে **New Message** সিলেক্ট।.
 
 ![broadcast block dropdown](images/broadcast-block.png)
 
-+ Then type your message
++ আপনার বার্তা বা message টি টাইপ করুন
 
 ![Create a broadcast](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+বার্তাটি আপনার পছন্দ মতো যাকিছু হতে পারে তবে সম্প্রচার বা broadcast কে একটি বিচক্ষণ বর্ণনা দেওয়ার জন্য এটি দরকারী।. বার্তা বা message টি প্রাপ্ত হওয়ার পরে যা ঘটে তা আপনার লেখার কোডের উপর নির্ভর করে।.
 
-### Receive a broadcast
+### একটি সম্প্রচার বা broadcast গ্রহণ করুন
 
-A sprite can react to a broadcast by using this block:
+Sprite একটি সম্প্রচারে প্রতিক্রিয়া জানাতে পারে এই ব্লকটি ব্যবহার করে:
 
 ![Receive a broadcast](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+ব্রডকাস্ট সংকেত প্রাপ্ত হলে sprite কে কী করতে হবে তা বলার জন্য আপনি এই ব্লকের নীচে ব্লকগুলি যুক্ত করতে পারেন।.
 
 ![Receive example](images/receive-example.png)
