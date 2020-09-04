@@ -1,7 +1,7 @@
 ---
-title: Scratch-இல் உள்ள ஒரு செய்தியை வலைபரப்பவும்
+title: Scratch-இல் ஒரு செய்தியை ஒலிபரப்பவும்
 hero_image: படங்கள்/banner.png
-description: வெவ்வேறு Sprites-இன் மூலம் செயல்படக்கூடிய ஒரு செய்தியை எவ்வாறு வலைபரப்பலாம் என்பதை அறிக
+description: வெவ்வேறு Sprite-களின் மூலம் செயல்படக்கூடிய ஒரு செய்தியை எவ்வாறு ஒலிபரப்பலாம்(வலைபரப்பு/broadcast) என்பதை அறிக
 listed: false
 ingredient: true
 copyedit: true
