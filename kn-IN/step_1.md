@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+Broadcast (ಪ್ರಸಾರವು) ಸ್ಪ್ರೈಟ್‌ನಿಂದ ಸಂದೇಶವನ್ನು ಕಳುಹಿಸುವ ಒಂದು ಮಾರ್ಗವಾಗಿದೆ, ಅದನ್ನು ಎಲ್ಲಾ ಸ್ಪ್ರೈಟ್‌ಗಳು ಕೇಳಬಹುದು. ಧ್ವನಿವರ್ಧಕದ ಮೂಲಕ ಮಾಡಿದ ಪ್ರಕಟಣೆಯಂತೆ ಯೋಚಿಸಿ.
 
-### Send a broadcast
+### ಪ್ರಸಾರವನ್ನು (Broadcast) ಕಳುಹಿಸಿ
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+Broadcast (ಪ್ರಸಾರ) ಬ್ಲಾಕ್ ಅನ್ನು ರಚಿಸುವ ಮೂಲಕ ಮತ್ತು ಅದಕ್ಕೆ ಹೆಸರನ್ನು ನೀಡುವ ಮೂಲಕ ನೀವು ಪ್ರಸಾರವನ್ನು ಕಳುಹಿಸಬಹುದು:
 
-+ Find the **broadcast** block under **Events**
++ ಹುಡುಕಿ **broadcast** ಬ್ಲಾಕ್ **Events** ಅಡಿಯಲ್ಲಿ
 
-+ Select **New Message** in the drop-down menu.
++ ಆಯ್ಕೆಮಾಡಿ **New Message** ಡ್ರಾಪ್-ಡೌನ್ (menu) ಮೆನುವಿನಲ್ಲಿ.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![broadcast ಬ್ಲಾಕ್ ಡ್ರಾಪ್‌ಡೌನ್](images/broadcast-block.png)
 
-+ Then type your message
++ ನಂತರ ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ಟೈಪ್ ಮಾಡಿ
 
-![Create a broadcast](images/new-broadcast.png)
+![Broadcast (ಪ್ರಸಾರವನ್ನು) ರಚಿಸಿ](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+ಸಂದೇಶ ವಿಷಯ ನೀವು ಇಷ್ಟಪಡುವ ಯಾವುದಾದರೂ ಆಗಿರಬಹುದು, ಆದರೆ ಪ್ರಸಾರಕ್ಕೆ ಸರಿಯಾದ ವಿವರಣೆಯನ್ನು ನೀಡಲು ಇದು ಉಪಯುಕ್ತವಾಗಿದೆ. ಸಂದೇಶವನ್ನು ಸ್ವೀಕರಿಸಿದಾಗ ಏನಾಗುತ್ತದೆ ನೀವು ಬರೆಯುವ ಕೋಡ್ ಅನ್ನು ಅವಲಂಬಿಸಿರುತ್ತದೆ.
 
-### Receive a broadcast
+### Broadcast (ಪ್ರಸಾರವನ್ನು) ಸ್ವೀಕರಿಸಿ
 
-A sprite can react to a broadcast by using this block:
+ಈ ಬ್ಲಾಕ್ ಅನ್ನು ಬಳಸಿಕೊಂಡು ಸ್ಪ್ರೈಟ್ ಪ್ರಸಾರಕ್ಕೆ ಪ್ರತಿಕ್ರಿಯಿಸಬಹುದು:
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![Broadcast (ಪ್ರಸಾರವನ್ನು) ಸ್ವೀಕರಿಸಿ](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+Broadcast (ಪ್ರಸಾರ) ಸಂಕೇತವನ್ನು ಸ್ವೀಕರಿಸಿದಾಗ ಏನು ಮಾಡಬೇಕೆಂದು ಸ್ಪ್ರೈಟ್ಗೆ ಹೇಳಲು ನೀವು ಈ ಬ್ಲಾಕ್ನ ಕೆಳಗೆ ಬ್ಲಾಕ್ಗಳನ್ನು ಸೇರಿಸಬಹುದು.
 
-![Receive example](images/receive-example.png)
+![ಉದಾಹರಣೆಯನ್ನು ಸ್ವೀಕರಿಸಿ](images/receive-example.png)
