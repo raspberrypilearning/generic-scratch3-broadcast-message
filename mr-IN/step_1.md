@@ -1,27 +1,27 @@
-A broadcast is a way of sending a message from a sprite which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
+प्रसारण हा स्प्राइट कडून संदेश पाठविण्याचा एक मार्ग आहे जो सर्व स्प्राइट्स द्वारे ऐकला जाऊ शकतो. लाउडस्पीकरवर केलेल्या घोषणे प्रमाणे याचा विचार करा.
 
-### Send a broadcast
+### प्रसारण पाठवा
 
-You can send a broadcast by creating a broadcast block and giving it a name:
+आपण प्रसारण खंड तयार करुन आणि त्याला नाव देऊन प्रसारण पाठवू शकता :
 
-+ Find the **broadcast** block under **Events**
++ **broadcast (प्रसंग)** खंड **Events (प्रसंग)** अंतर्गत शोधा
 
-+ Select **New Message** in the drop-down menu.
++ ड्रॉप-डाउन मेनू मध्ये **New Message (नवीन संदेश)** निवडा.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![प्रसारण खंड ड्रॉप-डाउन](images/broadcast-block.png)
 
-+ Then type your message
++ मग आपला संदेश लिहा
 
-![Create a broadcast](images/new-broadcast.png)
+![प्रसारण तयार करा](images/new-broadcast.png)
 
-The message text can be anything you like, but it is useful to give the broadcast a sensible description. What happens when the message is received depends on the code you write.
+संदेशाचा मजकूर आपल्याला आवडेल तसा असू शकते, परंतु प्रसारणास एक योग्य वर्णन देणे उपयुक्त ठरेल. संदेश प्राप्त झाल्यावर काय होते ते आपण लिहिलेल्या कोड वर अवलंबून असते.
 
-### Receive a broadcast
+### प्रसारण प्राप्त करा
 
-A sprite can react to a broadcast by using this block:
+स्प्राइट या खंडाचा वापर करुन प्रसारणास प्रतिक्रिया देईल :
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+![प्रसारण प्राप्त करा](images/receive-a-broadcast.png)
 
-You can add blocks below this block to tell the sprite what to do when it receives the broadcast signal.
+जेव्हा स्प्राइट प्रसारण संदेश प्राप्त करतो तेव्हा काय करावे हे सांगण्यासाठी आपण या खंडच्या खाली खंड जोडू शकता.
 
-![Receive example](images/receive-example.png)
+![उदाहरण प्राप्त करा](images/receive-example.png)
