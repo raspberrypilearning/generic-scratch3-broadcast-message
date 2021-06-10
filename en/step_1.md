@@ -1,5 +1,7 @@
 A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
 
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
+
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
 </div>
