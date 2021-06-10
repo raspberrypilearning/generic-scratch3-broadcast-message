@@ -1,5 +1,9 @@
 A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
 
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
+
 You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
 
 + Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
