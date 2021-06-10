@@ -28,7 +28,7 @@ broadcast (start v)
 
 ### Receive a broadcast
 
-Sprite can react to a broadcast by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
 You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
