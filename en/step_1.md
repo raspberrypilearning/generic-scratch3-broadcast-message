@@ -1,9 +1,5 @@
 A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Think of it like an announcement made over a loudspeaker.
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Broadcasting messages**</span> is like shouting out a message to everyone in a game. In the game Marco Polo, one person closes their eyes and counts to ten then shouts 'Marco'. The other players then shout 'Polo' so the first player can use their listening skills to try and find them. 
-</p>
-
 You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
 
 + Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
