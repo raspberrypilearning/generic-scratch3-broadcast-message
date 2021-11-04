@@ -1,27 +1,50 @@
-Uma transmissão é uma maneira de enviar uma mensagem de uma figura que pode ser ouvida por todas as outras figuras. Pense que é como um anúncio feito em um auto-falante.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Pense que é como um anúncio feito em um auto-falante.
 
-### Enviar uma transmissão
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-Você pode enviar uma transmissão criando um bloco de transmissão e dando-lhe um nome:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ Encontre o bloco **transmita** embaixo de **Eventos**
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + Selecione ** Nova mensagem ** no menu suspenso.
 
-![lista suspensa do bloco de transmissão](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + Em seguida, digite a sua mensagem
 
 ![Create a broadcast](images/new-broadcast.png)
 
-O texto da mensagem pode ser o que você quiser, mas é útil dar à transmissão uma descrição com sentido. O que acontece quando a mensagem é recebida depende do código que você escrever.
+### Enviar uma transmissão
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### Receba uma transmissão
 
-Um ator pode reagir a uma transmissão usando este bloco:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![Receba uma transmissão](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-Você pode adicionar blocos abaixo deste bloco para dizer ao ator o que fazer quando ele receber o sinal de transmissão.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![Receive example](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
