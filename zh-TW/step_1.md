@@ -1,27 +1,50 @@
-廣播訊息是角色發出訊息的一種方式，所有角色都收得到。 你可以把它想成像是利用擴音器發表聲明。
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. 你可以把它想成像是利用擴音器發表聲明。
 
-### 發送廣播訊息
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-你可以建立一個廣播訊息積木並為其命名以發送廣播訊息：
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ 在**事件**欄位中找出**廣播訊息**積木
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + 在下拉式選單中選擇**新的訊息**
 
-![廣播積木下拉式選單](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + 接著輸入你的訊息
 
-![建立廣播](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-訊息的文字可以任意撰寫，但是如果能對廣播的內容提供一個合理敘述的話，會變得非常有用。 收到訊息時會發生什麼事情取決於您撰寫的程式碼。
+### 發送廣播訊息
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### 接收廣播訊息
 
-角色可以使用此積木對廣播做出反應：
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![接收廣播](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-您可以在這個積木下方添加其他積木，以告訴角色在收到廣播時要採取什麼行動。
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![接收範例](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
