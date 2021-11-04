@@ -1,27 +1,50 @@
-Mit einer Nachricht kannst du eine Mitteilung von einer Figur aussenden, die von allen anderen Figuren gehört werden kann. Stelle es dir wie eine Ansage über einen Lautsprecher vor.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Stelle es dir wie eine Ansage über einen Lautsprecher vor.
 
-### Eine Nachricht an alle senden
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-Du kannst eine Nachricht senden, indem du einen 'Sende Nachricht an alle'-Block erstellst und ihm einen Namen gibst:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ Finde den **sende** Block unter **Ereignisse**
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + Wähle **Neue Nachricht** in der Auswahlbox aus.
 
-![Auswahlbox des Senden Blocks](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + Gebe dann deine Nachricht ein
 
 ![Create a broadcast](images/new-broadcast.png)
 
-Dein Nachrichtentext kann beliebig sein. Es hat sich jedoch als nützlich erwiesen, der Nachricht eine sinnvolle Beschreibung zu geben. Was passiert, wenn die Nachricht empfangen wird, hängt von dem Code ab, den du schreibst.
+### Eine Nachricht an alle senden
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### Empfangen einer Sendung
 
-Eine Figur kann mit diesem Block auf eine Sendung reagieren:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![Empfangen einer Sendung](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-Du kannst Blöcke unterhalb dieses Blocks hinzufügen, um der Figur mitzuteilen, was zu tun ist, wenn sie die Sendung empfängt.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![Receive example](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
