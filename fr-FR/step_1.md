@@ -1,27 +1,50 @@
-Un envoyer à tous est une façon d'envoyer un message depuis un sprite et qui peut être reçu par tout les sprites. Pense à cela comme à une annonce faite par haut-parleur.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Pense à cela comme à une annonce faite par haut-parleur.
 
-### Envoyer un envoyer à tous
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-Tu peux faire un envoyer à tous en créant un bloc envoyer à tous et en lui attribuant un nom:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ Cherche le bloc **envoyer à tous** dans **Évènements**
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + Sélectionne **Nouveau message** dans le menu déroulant.
 
-![menu déroulant du bloc envoyer à tous](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + Puis entre ton message
 
-![Créer un envoyer à tous](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-Le texte du message peut être ce que tu veux, mais il est utile de donner à l'envoyer à tous une description sensée. Ce qui se passe quand le message est reçu dépend du code que tu as écrit.
+### Envoyer un envoyer à tous
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### Recevoir un envoyer à tous
 
-Un sprite peut réagir à un envoyer à tous en utilisant ce bloc:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![Recevoir un envoyer à tous](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-Tu peux ajouter des blocs en dessous de celui-ci pour indiquer au sprite ce qu'il doit faire lorsqu'il reçoit un message envoyer à tous.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![Recevoir un exemple](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
