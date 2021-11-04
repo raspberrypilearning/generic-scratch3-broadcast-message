@@ -1,27 +1,50 @@
-En hændelse er en måde, at sende en besked fra en sprite, som kan høres af alle sprites. Tænk på det som en meddelelse over en højttaler.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Tænk på det som en meddelelse over en højttaler.
 
-### Send en meddelelse
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-Du kan sende en meddelelse ved at oprette en send-blok og give den et navn:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ Find **send** blokken under **Hændelser**
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + Vælg ** Ny besked ** i rullemenuen.
 
-![send blok rullemenu](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + Skriv derefter din besked
 
-![Opret en meddelelse](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-Meddelelsesteksten kan være nøjagtig det, du synes, men det er nyttigt at give hændelsen en fornuftig beskrivelse. Hvad der sker, når meddelelsen modtages, afhænger af den kode, du skriver.
+### Send en meddelelse
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### Modtag en meddelelse
 
-En sprite kan reagere på en meddelelse ved at bruge denne blok:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![Modtag en meddelelse](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-Du kan tilføje blokke under denne blok for at fortælle spriten, hvad den skal gøre, når den modtager meddelelsen.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![Modtag eksempel](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
