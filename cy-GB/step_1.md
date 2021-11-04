@@ -1,27 +1,50 @@
-Mae darllediad yn ffordd o anfon neges gan un corlun y gellir ei chlywed gan yr holl gorluniau. Meddylia amdano fel cyhoeddiad dros uchelseinydd.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Meddylia amdano fel cyhoeddiad dros uchelseinydd.
 
-### Anfon darllediad
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-Gelli di anfon darllediad gan greu bloc darlledu a rhoi enw arno:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ Tyrd o hyd i'r bloc **darlledu** yn yr adran **Digwyddiadau**
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + Dewisa **Neges Newydd** yn y gwymplen.
 
-![cwymplen bloc darlledu](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + Yna teipia dy neges
 
-![Creu darllediad](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-Gall y testun fod yn unrhywbeth yr hoffet ti, ond mae'n ddefnyddiol i roi disgrifiad synhwyrol i'r darllediad. Mae'r hyn sy'n digwydd pan mae'r neges yn cael ei dderbyn yn dibynnu ar y côd rwyt ti'n ei ysgrifennu.
+### Anfon darllediad
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### Derbyn darllediad
 
-Gall ciplun ymateb i ddarllediad gan ddefnyddio'r bloc hwn:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![Derbyn darllediad](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-Gelli di ychwanegu blociau o dan y bloc hwn i ddweud wrth y corlun beth i'w wneud pan fydd yn derbyn y darllediad.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![Derbyn enghraifft](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
