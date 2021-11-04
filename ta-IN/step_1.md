@@ -1,27 +1,50 @@
-ஓர் ஒலிபரப்பு(broadcast/வலைப்பரப்பு) என்பது ஒரு Sprite-இன் ஒரு செய்தியை, மற்ற அனைத்து sprite-களும் கேட்கும்படி அனுப்புவதற்கான ஒரு வழியாகும். ஓர் ஒலிபெருக்கி மூலம் வெளியிடப்பட்ட ஓர் அறிவிப்பைப் போல நினைத்துப் பாருங்கள்.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. ஓர் ஒலிபெருக்கி மூலம் வெளியிடப்பட்ட ஓர் அறிவிப்பைப் போல நினைத்துப் பாருங்கள்.
 
-### ஓர் ஒலிபரப்பை அனுப்பவும்
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-ஓர் ஒலிபரப்புத் தொகுதியை உருவாக்கி, அதற்கு ஒரு பெயரைக் கொடுப்பதன் மூலம் ஓர் ஒலிபரப்பை நீங்கள் அனுப்பலாம்:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ **Events**-இன் கீழே உள்ள **broadcast** தொகுதியைக் (block) கண்டறியவும்
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + கீழ்விரி பட்டியில் (drop-down menu) உள்ள **New Message** -ஐத்(புதிய செய்தி) தேர்ந்தெடுக்கவும்.
 
-![ஒலிபரப்பு தொகுதி கீழ்விரியும் ](படங்கள் / ஒளிபரப்பு- block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + பின்னர், உங்கள் செய்தியைத் தட்டச்சு செய்க
 
-![ஓர் ஒலிபரப்பை உருவாக்கவும்](படங்கள் / புதிய-ஒளிபரப்பு. png)
+![Create a broadcast](images/new-broadcast.png)
 
-செய்தி உரை நீங்கள் விரும்பும் எதையும் கொண்டிருக்கலாம். ஆனால் ஒலிபரப்பிற்கு, ஓர் விவேகமான விளக்கத்தை வழங்குவதாக இருந்தால் அது பயனுள்ளதாக இருக்கும். செய்தியைப் பெறுபோது என்ன நடக்கும் என்பது நீங்கள் எழுதும் குறியீட்டைப்(code) பொறுத்தது.
+### ஓர் ஒலிபரப்பை அனுப்பவும்
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### ஓர் ஒலிபரப்பைப் பெறுக
 
-இந்த தொகுதியைப் பயன்படுத்தி, ஒரு sprite ஒலிபரப்பிற்கான எதிர்வினையை செய்யலாம்:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![ஓர் ஒலிபரப்பைப் பெறுக](படங்கள் / பெறுதல்-ஒரு-ஒளிபரப்பு. png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-இந்த தொகுதிக்குக் கீழே மேலும் சில தொகுதிகளை நீங்கள் சேர்க்கலாம். இதன் மூலம் ஒலிபரப்புக் குறிகையைப்(signal) பெறும்போது, sprite என்ன செய்ய வேண்டும் என்பதை அதற்குக் கூறலாம்.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![உதாரணத்தைப் பெறுங்கள்](படங்கள் / பெறுதல்-உதாரணம். png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
