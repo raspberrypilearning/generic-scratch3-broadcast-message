@@ -1,27 +1,50 @@
-Een signaal is een manier om een ​​boodschap te verzenden vanuit een sprite die door alle sprites kan worden gehoord. Zie het als een aankondiging via een luidspreker.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Zie het als een aankondiging via een luidspreker.
 
-### Verzend een signaal
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-Je kunt een signaal verzenden door een zend signaal blok te maken en het een naam te geven:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ Zoek het **zend signaal** blok onder **Gebeurtenissen**
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + Selecteer **Nieuw bericht** in het vervolgkeuzemenu.
 
-![signaalblok dropdown](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + Typ vervolgens je bericht
 
-![Maak een bericht](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-De bericht tekst kan alles zijn wat je leuk vindt, maar het is nuttig dat het bericht een zinvolle beschrijving krijgt. Wat er gebeurt als het bericht wordt ontvangen, is afhankelijk van de code die jij schrijft.
+### Verzend een signaal
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### Ontvang een signaal
 
-Een sprite kan reageren op een bericht door dit blok te gebruiken:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![Ontvang een signaal](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-Je kunt blokken onder dit blok toevoegen om de sprite te vertellen wat hij moet doen als hij het bericht ontvangt.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![Voorbeeld ontvangen](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
