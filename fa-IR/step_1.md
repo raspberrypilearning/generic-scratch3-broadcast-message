@@ -1,27 +1,50 @@
-پخش سراسری یک راه برای ارسال یک پیام از یک شبح است که می‌تواند توسط تمام شبح‌ها شنیده شود. به آن مانند یک اعلانی که از بلندگو پخش می‌شود، فکر کنید.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. به آن مانند یک اعلانی که از بلندگو پخش می‌شود، فکر کنید.
 
-### ارسال یک پخش سراسری
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-شما می‌توانید با ساخت یک بلوک پخش سراسری و نام‌گذاری آن، یک پخش سراسری را ارسال کنید:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ بلوک **broadcast** را در قسمت **Events** پیدا کنید
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + در منوی کشویی **New Message** را انتخاب کنید.
 
-![منوی کشویی بلوک پخش سراسری](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + سپس پیام خود را تایپ کنید
 
-![یک پخش سراسری ایجاد کنید](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-متن پیام می تواند هر چیزی باشد که دوست دارید، اما خوب است که یک توضیح معقول و مناسب را ارائه دهید. اتفاقی که هنگام دریافت پیام می‌افتد، به کدی که شما نوشته‌اید بستگی دارد.
+### ارسال یک پخش سراسری
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### دریافت یک پخش سراسری
 
-یک شبح می‌تواند با استفاده از این بلوک به یک پخش سراسری واکنش نشان دهد:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![دریافت یک پخش سراسری](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-شما می‌توانید بلوک‌ها را به زیر این بلوک اضافه کنید تا به شبح بگویید که وقتی سیگنال پخش سراسری را دریافت می کند، چه کاری باید انجام دهد.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![مثال دریافت](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
