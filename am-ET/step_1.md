@@ -1,27 +1,50 @@
-ስርጭት ማለት በአንድ ስፕራይት የተላከ መልክት ሆኖ ነገር ግን በሁሉም ስፐራይቶች ሊሰማ ይሚችል መልክት መላክ ማለት ነው. በድምጽ ማጉያ ላይ እንደተነገረ መልክት አድርገው አስቡት.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. በድምጽ ማጉያ ላይ እንደተነገረ መልክት አድርገው አስቡት.
 
-### ስርጭት ይላኩ
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-ስርጭት ብሎክ በመፍጠር እና ስም በመስጠት አንድ ስርጭት መላክ ይችላሉ:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ የ **ስርጭት** ብሎክ ስር **ክስተቶች** ይፈልጉ
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + በተቆልቋይ ምናሌ ውስጥ **አዲስ መልዕክት** የሚለውን ይምረጡ.
 
-![የስርጭት ብሎክ ቁልቁል መምረጫ](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + ከዚያም መልዕክትዎን ይፃፉ
 
-![ስርጭት ይፍጠሩ](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-የመልዕክት ጽሁፉ እርስዎ የፈለጉት ሊሆን ይችላል, ነገር ግን ስርጭቱን ትርጉም ያለው መግለጫ መስጠት ጠቃሚ ነው። መልእክቱ ሲደርሰው የሚከሰተዉ ነገር በምትጽፈው ኮድ ይወሰናል.
+### ስርጭት ይላኩ
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### ስርጭት ይቀበሉ
 
-ስፕራይት ይህን ማሽን በመጠቀም ለስርጭት ምላሽ ሊሰጥ ይችላል
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![ስፕራይት ይህን ማሽን በመጠቀም ለስርጭት ምላሽ ሊሰጥ ይችላል：](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-ከዚ ብሎክ ስር ሌላ ብሎክ በመጨመር የስርጭቱ መልክት ሲደርስ ስፐራይቱ ምን ማድረግ እንዳለበት ሊነግሩት ይችላሉ.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![ምሳሌ ተቀበል](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
