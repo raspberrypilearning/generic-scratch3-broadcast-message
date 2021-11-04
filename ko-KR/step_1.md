@@ -1,27 +1,50 @@
-브로드캐스트는 모든 스프라이트 들을 수 있는 스프라이트에서 메시지를 보내는 방법입니다. 확성기를 통한 안내와 같이 생각하십시오.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. 확성기를 통한 안내와 같이 생각하십시오.
 
-### 브로드캐스트 전송
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-방송 블록을 만들고 메시지 이름을 지정하면 메시지를 방송할 수 있습니다:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ **이벤트** 항목에서 **방송하기(브로드캐스트)** 블록을 찾으세요.
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + 메시지1 이라고 적혀 있는 드롭다운 메뉴를 클릭하여, **새로운 메시지**를 클릭합니다.
 
-![방송하기 블록 드롭다운](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + 메시지를 입력하세요.
 
-![방송 만들기](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-메시지 텍스트는 자신이 원하는 문구를 적을 수 있으나, 어떤 용도로 쓰이는 메시지인지 명확하게 적는 것이 필요합니다. 메시지를 받을 때 어떤 일이 일어나는지는 작성한 코드에 따라서 달라집니다.
+### 브로드캐스트 전송
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### 메시지 받기
 
-스프라이트는 이 블록을 사용하여 방송된 메시지에 반응합니다.
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![메시지 받기](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-아래에 블록을 추가하면, 스프라이트가 특정 메시지를 받았을 때 어떤 작업을 수행할지 지시할 수 있습니다.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![수신 예제](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
