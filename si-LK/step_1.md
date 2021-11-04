@@ -1,27 +1,50 @@
-විකාශනය(broadcast) යනු එක් sprite එකකින් සෑම sprite එකකටම සවන් දිය හැකි ආකාරයෙන් පණිවිඩයක් යවන ක්‍රමයකි. එය ශබ්ද විකාශන යන්ත්‍රයක් හරහා කළ නිවේදනයක් මෙන් සිතන්න.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. එය ශබ්ද විකාශන යන්ත්‍රයක් හරහා කළ නිවේදනයක් මෙන් සිතන්න.
 
-### විකාශනය කරන්න
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-විකාශන කට්ටියක්(broadcast block) නිර්මාණය කර එයට නමක් ලබා දීමෙන් විකාශනයක් කළ හැකිය:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ **Events** යටතේ ඇති **විකාශන(broadcast)** කට්ටියක්(block) තෝරන්න.
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + පතන මෙනුවේ ඇති **නව පණිවිඩය(New Message)** තෝරන්න.
 
-![විකාශන(broadcast) කට්ටි(block) පතන මෙනුව](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + ඉන්පසු ඔබේ පණිවිඩය ටයිප් කරන්න
 
-![විකාශනයක්(broadcast) සාදන්න](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-පණිවිඩ පෙළ ඔබ කැමති ඕනෑම දෙයක් විය හැකි නමුත් විකාශනය සඳහා නිවැරදි විස්තරයක් ලබා දීම ප්‍රයෝජනවත්වේ. පණිවිඩය ලැබුණු විට කුමක් සිදුවේද යන්න ඔබ ලියන කේතය(code) මත රඳා පවතී.
+### විකාශනය කරන්න
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### විකාශනය ලබාගන්න
 
-මෙම කට්ටිය(block) භාවිතා කිරීමෙන් sprite එක විකාශනයකට ප්‍රතික්‍රියා කරයි:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![විකාශනය ලබාගන්න](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-මෙම කට්ටියට(block) පහළින් තවත් කට්ටි(blocks) එක්කරගත හැක, එමගින් sprite එකකට විකාශන පනිවිඩයක් ලැබුණු විට කුමක් කළ යුතු දැයි කියවේ.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![උදාහරණයක් ගන්න](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
