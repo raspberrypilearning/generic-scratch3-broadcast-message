@@ -1,27 +1,50 @@
-Objava je način, na katerega figura pošlje sporočilo, ki ga lahko slišijo vse figure. Razmišljaj o njej, kot da bi šlo za objavo preko zvočnika.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Razmišljaj o njej, kot da bi šlo za objavo preko zvočnika.
 
-### Pošiljanje objave
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-Objavo lahko pošlješ tako, da ustvariš blok "objavi" in jo poimenuješ:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ Poišči blok **"objavi"** med **Dogodki**
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + V spustnem meniju izberi **Novo sporočilo**.
 
-![spustni meni bloka "objavi"](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + Nato vnesi svoje sporočilo
 
-![Ustvari objavo](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-Besedilo sporočila je lahko karkoli, vendar je za uporabnost pomembno, da ima objava smiseln opis. Kaj se zgodi po prejemu sporočila je odvisno od kode, ki jo napišete.
+### Pošiljanje objave
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### Sprejem objave
 
-Figura se lahko odzove na objavo z uporabo tega bloka:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![Prejem objave](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-Pod tem blokom lahko dodaš bloke, ki povedo figuri, kaj naj stori, ko prejme neko objavo.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![Primer prejema objave](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
