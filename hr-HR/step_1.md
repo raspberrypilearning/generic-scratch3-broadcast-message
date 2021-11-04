@@ -1,27 +1,50 @@
-Emitiranjem lik može poslati poruke koju mogu čuti svi drugi likovi. Zamisli to kao objavljivanje poruke preko zvučnika.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Zamisli to kao objavljivanje poruke preko zvučnika.
 
-### Pošalji poruku
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-Možeš poslati poruku tako da kreiraš blok za emitiranje i daš mu ime:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ Pronađi **pošalji** blok na kartici **Događaji**
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + Odaberi **Nova poruka** u padajućem izborniku.
 
-![padajući izbornik bloka pošalji](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + Upiši svoju poruku
 
-![Pošalji poruku](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-Tekst poruke može biti što god želiš, ali je korisno dati mu opis koji ima smisla. Što se događa kada je poruka primljena ovisi o kôdu koji napišeš.
+### Pošalji poruku
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### Primi poruku
 
-Lik može reagirati na slanje poruke pomoću ovog bloka:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![Primi poruku](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-Možeš dodati blokove ispod ovog bloka da kažeš liku što treba učiniti kada primi poruku.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![Primjer primanja poruke](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
