@@ -1,27 +1,50 @@
-Siaran adalah sebuah cara untuk mengirimkan pesan dari sebuah sprite agar bisa didengar oleh semua sprite lainnya. Kira-kira seperti pengumuman dari sebuah pengeras suara.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Kira-kira seperti pengumuman dari sebuah pengeras suara.
 
-### Kirim siaran
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-Kamu dapat mengirim siaran dengan membuat blok siaran dan memberinya sebuah nama:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ Temukan blok **Siarkan** pada bagian ** Kejadian**
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + Pilih **Pesan baru** di menu drop-down.
 
-![dropdown blok siaran](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + Kemudian ketikkan pesan Kamu
 
-![Buat siaran](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-Teks pada pesan dapat berupa apa pun yang kamu suka, tetapi alangkah baiknya menyiarkan sesuatu yang berguna. Apa yang terjadi ketika pesan diterima tergantung pada kode yang kamu tulis.
+### Kirim siaran
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### Terima siaran
 
-Sprite dapat bereaksi terhadap siaran dengan menggunakan blok ini:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![Terima siaran](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-Kamu bisa menambahkan beberapa blok di bawah blok ini untuk memberi tahu sprite, apa yang harus dilakukan saat menerima sinyal siaran.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![Contoh penerimaan](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
