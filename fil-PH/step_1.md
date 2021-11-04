@@ -1,27 +1,50 @@
-Ang broadcast ay isang paraan ng pagpapadala ng isang mensahe mula sa isang sprite na maaaring marinig ng lahat ng mga sprite. Isipin mo ito ng parang isang anunsyo na ginawa sa isang loudspeaker.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Isipin mo ito ng parang isang anunsyo na ginawa sa isang loudspeaker.
 
-### Magpadala ng isang broadcast
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-Maaari kang magpadala ng isang broadcast sa pamamagitan ng paglikha ng isang broadcast block at pagbibigay nito ng isang pangalan:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ Hanapin ang **broadcast** block sa ilalim ng **Kaganapan**
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + Piliin ang **Bagong Mensahe** sa drop-down menu.
 
-![I-dropdown ang broadcast block](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + Pagkatapos ay i-type ang iyong mensahe
 
-![Lumikha ng isang broadcast](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-Ang message text ay maaaring maging kung anumang gusto mo, ngunit kapaki-pakinabang na bigyan ang broadcast ng isang makatwirang paglalarawan. Nakadepende sa sinulat mong code ang mangyayari sa natanggap na mensahe.
+### Magpadala ng isang broadcast
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### Tumanggap ng isang broadcast
 
-Ang sprite ay maaaring tumugon sa isang broadcast sa pamamagitan ng paggamit ng block na ito:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![Tumanggap ng isang broadcast](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-Maaari kang magdagdag ng mga blocks sa ibaba ng block na ito upang sabihin sa sprite kung ano ang gagawin kapag natanggap nito ang broadcast signal.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![Tumanggap ng halimbawa](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
