@@ -1,27 +1,50 @@
-Az üzenetküldés egy olyan módszer, amellyel egy szereplő egy olyan üzenetet tud küldeni, amelyet minden szereplő meghallhat. Úgy gondolj rá, mint egy bejelentésre a hangosbemondón keresztül.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Úgy gondolj rá, mint egy bejelentésre a hangosbemondón keresztül.
 
-### Küldj egy üzenetet
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-Üzenet küldéséhez hozz létre egy üzenetküldő blokkot, és adj neki egy nevet:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ Keresd meg a **küldj üzenetet** blokkot az **Események** lapon.
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + Válaszd ki az **Új üzenet** menüpontot a legördülő menüből.
 
-![üzenetküldő blokk menüje](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + Ezután írd be az üzenetet.
 
-![Hozz létre egy üzenetet](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-Az üzenet szövege bármi lehet, amit szeretnél, de hasznos, ha az üzenetnek értelmes a leírása. Az, hogy mi történik az üzenet fogadásakor, az általad írt kódtól függ.
+### Küldj egy üzenetet
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### Üzenet fogadása
 
-Egy szereplő az alábbi blokkal reagálhat az üzenetre:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![Üzenet fogadása](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-A blokk alá hozzáadhatsz blokkokat, hogy megmondd a szereplőnek, mit kell tennie az üzenet fogadásakor.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![Példa üzenet fogadására](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
