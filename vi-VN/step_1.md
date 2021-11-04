@@ -1,27 +1,50 @@
-Phát sóng là một cách để gửi một tin nhắn từ một đối tượng- đồ hoạ máy tính- có thể được nghe bởi tất cả các đối tượng khác. Hãy nghĩ về nó giống như một thông báo được thực hiện qua loa.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Hãy nghĩ về nó giống như một thông báo được thực hiện qua loa.
 
-### Gửi một tin
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-Bạn có thể gửi một tin bằng cách tạo một khối phát sóng và đặt tên cho nó:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ Tìm khối **phát sóng ** dưới **Sự kiện**
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + Select **New Message** in the drop-down menu.
 
-![trình đơn thả xuống chặn quảng cáo](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + Sau đó nhập tin nhắn của bạn
 
-![Tạo một tin nhắn](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-Nội dung tin nhắn có thể là bất cứ điều gì bạn thích, nhưng cung cấp cho các phát sóng một mô tả hợp lý sẽ hữu ích. Điều gì sẽ xảy ra khi nhận được tin nhắn phụ thuộc vào mã bạn viết.
+### Gửi một tin
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### Nhận một tin nhắn
 
-Một đối tượng có thể phản ứng với một tin bằng cách sử dụng khối này:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![Nhận một chương trình phát sóng](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-Bạn có thể thêm các khối bên dưới khối này để báo cho đối tượng biết phải làm gì khi nhận được tin.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![Nhận ví dụ](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
