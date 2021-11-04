@@ -1,10 +1,14 @@
-সম্প্রচার হ'ল একটি sprite থেকে বার্তা/message প্রেরণের একটি উপায় যা বাকি সমস্ত sprite শুনতে পায়।. এটিকে কোনও লাউড স্পিকারের মাধ্যমে ঘোষণার মতো মনে করুন।.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. এটিকে কোনও লাউড স্পিকারের মাধ্যমে ঘোষণার মতো মনে করুন।.
 
-### একটি সম্প্রচার বার্তা বা broadcast পাঠান
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-আপনি একটি সম্প্রচারের ব্লক তৈরি করে তার মাধ্যমে বার্তা পাঠাতে পারেন এবং এটির একটি নাম দিতে পারেন:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ **broadcast** ব্লকটি **Events** এর মধ্যে খুজুন
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + ড্রপ-ডাউন মেনুতে **New Message** সিলেক্ট।.
 
@@ -14,14 +18,33 @@
 
 ![Create a broadcast](images/new-broadcast.png)
 
-বার্তাটি আপনার পছন্দ মতো যাকিছু হতে পারে তবে সম্প্রচার বা broadcast কে একটি বিচক্ষণ বর্ণনা দেওয়ার জন্য এটি দরকারী।. বার্তা বা message টি প্রাপ্ত হওয়ার পরে যা ঘটে তা আপনার লেখার কোডের উপর নির্ভর করে।.
+### একটি সম্প্রচার বার্তা বা broadcast পাঠান
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### একটি সম্প্রচার বা broadcast গ্রহণ করুন
 
-Sprite একটি সম্প্রচারে প্রতিক্রিয়া জানাতে পারে এই ব্লকটি ব্যবহার করে:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![Receive a broadcast](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-ব্রডকাস্ট সংকেত প্রাপ্ত হলে sprite কে কী করতে হবে তা বলার জন্য আপনি এই ব্লকের নীচে ব্লকগুলি যুক্ত করতে পারেন।.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![Receive example](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
