@@ -1,27 +1,50 @@
-Nadawanie jest sposobem na wysłanie wiadomości przez duszka, który może być słyszany przez wszystkie duszki. Pomyśl o tym jak o komunikacie słyszanym z głośnika.
+A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Pomyśl o tym jak o komunikacie słyszanym z głośnika.
 
-### Nadaj komunikat
+**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
-Możesz wysłać komunikat, tworząc blok nadawania komunikatu i nadając mu nazwę:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ Znajdź blok **Nadaj** w kategorii **Zdarzenia**
+You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+
++ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
 
 + Wybierz opcję **Nowa wiadomość** w rozwijanym menu.
 
-![rozwijana lista bloku komunikatu](images/broadcast-block.png)
+![broadcast block dropdown](images/broadcast-block.png)
 
 + Następnie wpisz swoją wiadomość
 
-![Utwórz komunikat](images/new-broadcast.png)
+![Create a broadcast](images/new-broadcast.png)
 
-Treść wiadomości może być dowolna, ale dobrze jest nadać komunikatowi sensowny opis. Co się stanie, gdy wiadomość zostanie odebrana, zależy od kodu, który napiszesz.
+### Nadaj komunikat
+
+You can decide when to `broadcast`{:class="block3events"} your message. For example:
+
+```blocks3
+when this sprite clicked
+broadcast (shrink v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### Odbierz komunikat
 
-Duszek może zareagować na komunikat za pomocą tego bloku:
+Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
 
-![Odbierz komunikat](images/receive-a-broadcast.png)
+You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
 
-Możesz dodać bloki poniżej tego bloku, aby powiedzieć duszkowi, co ma zrobić, gdy odbierze komunikat.
+```blocks3
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
+```
 
-![Przykład odebrania komunikatu](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
