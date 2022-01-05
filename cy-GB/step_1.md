@@ -1,50 +1,50 @@
-A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Meddylia amdano fel cyhoeddiad dros uchelseinydd.
+Mae `darlledu`{:class="block3events"} yn ffordd o anfon neges y gall pob corlun ei chlywed. Meddylia amdano fel cyhoeddiad dros uchelseinydd.
 
-**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
+**Darlledu swynion**: Defnyddia'r wialen hud i glicio ar y botymau a bwrw swynion. Beth mae pob swyn yn ei wneud i'r cymeriadau? [Gweld tu mewn](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+Galli di greu neges i'w `darlledu`{:class="block3events"}. Gall y testun fod yn unrhywbeth yr hoffet ti, ond mae'n ddefnyddiol i roi disgrifiad synhwyrol iddo.
 
-+ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
++ Tyrd o hyd i'r bloc **darlledu** yn yr adran **Digwyddiadau**
 
 + Dewisa **Neges Newydd** yn y gwymplen.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![cwymplen bloc darlledu](images/broadcast-block.png)
 
 + Yna teipia dy neges
 
-![Create a broadcast](images/new-broadcast.png)
+![Creu darllediad](images/new-broadcast.png)
 
 ### Anfon darllediad
 
-You can decide when to `broadcast`{:class="block3events"} your message. For example:
+Wedyn galli di benderfynu pryd i `ddarlledu`{:class="block3events"} dy neges. Er enghraifft:
 
 ```blocks3
 when this sprite clicked
-broadcast (shrink v)
+broadcast (crebachu v)
 ```
 
 ```blocks3
 when backdrop switches to [level 1 v]
-broadcast (start v)
+broadcast (dechrau v)
 ```
 
 ### Derbyn darllediad
 
-Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
+Gall corlun ymateb i `ddarlledu`{:class="block3events"} drwy ddefnyddio bloc `pan rwy'n derbyn`{:class="block3events"}. Gall sawl corlun ymateb pan fyddan nhw'n derbyn yr un neges.
 
-You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
+Gelli di ychwanegu blociau o dan y bloc hwn i ddweud wrth y corlun beth i'w wneud pan fydd yn derbyn y darllediad.
 
 ```blocks3
 when I receive [shrink v]
-change size by [-10] // negative numbers decrease the size
+change size by [-10] // mae niferoedd negyddol yn lleihau'r maint
 ```
 
 ```blocks3
-when I receive [start v]
+when I receive [dechrau v]
 go to x: (100) y: (50)
 show
 ```
