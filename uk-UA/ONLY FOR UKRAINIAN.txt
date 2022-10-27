@@ -1,13 +1,13 @@
-normal size
+звичайний розмір
 
-normal costume
+звичайний образ
 
-negative number to shrink
+негативне число для зменшення
 
-in front of the buttons
+навпроти кнопок
 
-grow
+виростати
 
-toad
+в жабу
 
-untoad
+не жаба
