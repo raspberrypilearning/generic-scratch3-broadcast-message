@@ -8,7 +8,7 @@ Eine `Broadcast`{:class="block3events"} (to broadcast = senden/übertragen) ist 
 
 Du kannst eine Nachricht erstellen, die du `senden`{:class="block3events"} möchtest. Dein Nachrichtentext kann beliebig sein. Es hat sich jedoch als nützlich erwiesen, der Nachricht eine sinnvolle Beschreibung zu geben.
 
-+ Finde den **sende** Block unter **Ereignisse**
++ Finde den `sende`{:class="block3events"} Block unter `Ereignisse`{:class="block3events"}
 
 + Wähle **Neue Nachricht** in der Auswahlbox aus.
 
