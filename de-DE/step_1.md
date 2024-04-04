@@ -1,26 +1,26 @@
-A `broadcast`{:class="block3events"} is a way of sending a message which can be heard by all sprites. Stelle es dir wie eine Ansage über einen Lautsprecher vor.
+Eine `Broadcast`{:class="block3events"} (to broadcast = senden/übertragen) ist eine Möglichkeit, eine Nachricht zu senden, die von allen Sprites gehört werden kann. Stelle es dir wie eine Ansage über einen Lautsprecher vor.
 
-**Broadcasting spells**: Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters? [See inside](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
+**Zaubern**: Klicke mit dem Zauberstab auf die Schaltflächen und zaubere. Was macht jeder Zauber mit den Charakteren? [Siehe das Programm an](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can create a message to be `broadcast`{:class="block3events"}. The message text can be anything you like, but it is useful to give it a sensible description.
+Du kannst eine Nachricht erstellen, die du `senden`{:class="block3events"} möchtest. Dein Nachrichtentext kann beliebig sein. Es hat sich jedoch als nützlich erwiesen, der Nachricht eine sinnvolle Beschreibung zu geben.
 
-+ Find the `broadcast`{:class="block3events"} block under `Events`{:class="block3events"}
++ Finde den **sende** Block unter **Ereignisse**
 
 + Wähle **Neue Nachricht** in der Auswahlbox aus.
 
-![broadcast block dropdown](images/broadcast-block.png)
+![Auswahlbox des Senden Blocks](images/broadcast-block.png)
 
 + Gebe dann deine Nachricht ein
 
-![Create a broadcast](images/new-broadcast.png)
+![Erstelle eine Nachricht](images/new-broadcast.png)
 
 ### Eine Nachricht an alle senden
 
-You can decide when to `broadcast`{:class="block3events"} your message. For example:
+Du kannst entscheiden, wann du deine Nachricht `senden`{:class="block3events"} möchtest. Zum Beispiel:
 
 ```blocks3
 when this sprite clicked
@@ -34,9 +34,9 @@ broadcast (start v)
 
 ### Empfangen einer Sendung
 
-Sprite can react to a `broadcast`{:class="block3events"} by using a `when I receive`{:class="block3events"} block. Multiple sprites can respond when they receive the same message.
+Ein Sprite kann auf eine `-Nachricht`{:class="block3events"} reagieren, indem du einen `-Wenn ich <eine Nachricht> empfange`{:class="block3events"}-Block verwendest. Mehrere Sprites können reagieren, wenn sie dieselbe Nachricht erhalten.
 
-You can add blocks below a `when I receive`{:class="block3events"} block to tell the sprite(s) what to do when they receives the message.
+Du kannst Blöcke unterhalb des `wenn ich empfange`{:class="block3events"}-Blocks hinzufügen, um der Figur (oder mehreren) mitzuteilen, was zu tun ist, wenn sie die Nachricht empfängt.
 
 ```blocks3
 when I receive [shrink v]
