@@ -1,10 +1,14 @@
-Mit einer Nachricht kannst du eine Mitteilung von einer Figur aussenden, die von allen anderen Figuren gehört werden kann. Stelle es dir wie eine Ansage über einen Lautsprecher vor.
+Eine `Broadcast`{:class="block3events"} (to broadcast = senden/übertragen) ist eine Möglichkeit, eine Nachricht zu senden, die von allen Sprites gehört werden kann. Stelle es dir wie eine Ansage über einen Lautsprecher vor.
 
-### Eine Nachricht an alle senden
+**Zaubern**: Klicke mit dem Zauberstab auf die Schaltflächen und zaubere. Was macht jeder Zauber mit den Charakteren? [Siehe das Programm an](https://scratch.mit.edu/projects/995180896/editor){:target="_blank"}
 
-Du kannst eine Nachricht senden, indem du einen 'Sende Nachricht an alle'-Block erstellst und ihm einen Namen gibst:
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/995180896/?autostart=false" frameborder="0"></iframe>
+</div>
 
-+ Finde den **sende** Block unter **Ereignisse**
+Du kannst eine Nachricht erstellen, die du `senden`{:class="block3events"} möchtest. Dein Nachrichtentext kann beliebig sein. Es hat sich jedoch als nützlich erwiesen, der Nachricht eine sinnvolle Beschreibung zu geben.
+
++ Finde den `sende`{:class="block3events"} Block unter `Ereignisse`{:class="block3events"}
 
 + Wähle **Neue Nachricht** in der Auswahlbox aus.
 
@@ -12,16 +16,35 @@ Du kannst eine Nachricht senden, indem du einen 'Sende Nachricht an alle'-Block 
 
 + Gebe dann deine Nachricht ein
 
-![Create a broadcast](images/new-broadcast.png)
+![Erstelle eine Nachricht](images/new-broadcast.png)
 
-Dein Nachrichtentext kann beliebig sein. Es hat sich jedoch als nützlich erwiesen, der Nachricht eine sinnvolle Beschreibung zu geben. Was passiert, wenn die Nachricht empfangen wird, hängt von dem Code ab, den du schreibst.
+### Eine Nachricht an alle senden
+
+Du kannst entscheiden, wann du deine Nachricht `senden`{:class="block3events"} möchtest. Zum Beispiel:
+
+```blocks3
+when this sprite clicked
+broadcast (schrumpfen v)
+```
+
+```blocks3
+when backdrop switches to [level 1 v]
+broadcast (start v)
+```
 
 ### Empfangen einer Sendung
 
-Eine Figur kann mit diesem Block auf eine Sendung reagieren:
+Ein Sprite kann auf eine `-Nachricht`{:class="block3events"} reagieren, indem du einen `-Wenn ich <eine Nachricht> empfange`{:class="block3events"}-Block verwendest. Mehrere Sprites können reagieren, wenn sie dieselbe Nachricht erhalten.
 
-![Empfangen einer Sendung](images/receive-a-broadcast.png)
+Du kannst Blöcke unterhalb des `wenn ich empfange`{:class="block3events"}-Blocks hinzufügen, um der Figur (oder mehreren) mitzuteilen, was zu tun ist, wenn sie die Nachricht empfängt.
 
-Du kannst Blöcke unterhalb dieses Blocks hinzufügen, um der Figur mitzuteilen, was zu tun ist, wenn sie die Sendung empfängt.
+```blocks3
+when I receive [schrumpfen v]
+change size by [-10] // Negative Zahlen verringern die Größe
+```
 
-![Receive example](images/receive-example.png)
+```blocks3
+when I receive [start v]
+go to x: (100) y: (50)
+show
+```
