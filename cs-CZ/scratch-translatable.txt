@@ -1,5 +1,5 @@
-shrink
+zmenšit
 
-level 1
+úroveň 1
 
 start
