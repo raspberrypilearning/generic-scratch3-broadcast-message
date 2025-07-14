@@ -1,9 +1,9 @@
 Pomocí bloku `vyšli zprávu`{:class="block3events"} odešleš zprávu, kterou uslyší všechny postavy. Můžeš si to představit jako hlášení z ampliónu.
 
-**Vyslání kouzel**: Kouzelnou hůlkou klepni na tlačítka a vyšli kouzla. Co každé kouzlo udělá s postavami? [Podívej se sem](https://scratch.mit.edu/projects/518413238/editor){:target="_blank"}.
+**Vyslání kouzel**: Kouzelnou hůlkou klepni na tlačítka a vyšli kouzla. Co každé kouzlo udělá s postavami? [Podívej se sem](https://scratch.mit.edu/projects/1197013566/editor){:target="_blank"}.
 
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1197013566/?autostart=false" frameborder="0"></iframe>
 </div>
 
 Můžeš vytvořit zprávu, která bude `vyslána`{:class="block3events"}. Text zprávy může být jakýkoli, ale bylo by vhodné, aby dával smysl.
